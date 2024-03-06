@@ -1,0 +1,19 @@
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
