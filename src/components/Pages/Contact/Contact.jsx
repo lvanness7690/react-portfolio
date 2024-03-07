@@ -4,7 +4,7 @@ import './contact.css';
 function Contact() {
   return (
     <div className="contact">
-      <h2>Contact Me</h2>
+      <h2>CONTACT ME</h2>
       <p>If you have any questions or just want to say hello, please send me a message and I'll get back to you as soon as possible.</p>
       <form>
         <input type="text" placeholder="Your Name" required />
