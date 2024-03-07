@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer>
-      <p>Connect with me:</p>
+      <h3 className='connect'>Connect with me:</h3>
       <a href="https://github.com">GitHub</a> | <a href="https://linkedin.com">LinkedIn</a> | <a href="https://twitter.com">Twitter</a>
     </footer>
   );
