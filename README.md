@@ -4,6 +4,8 @@
 
 The React Portfolio is a single-page application designed to showcase a web developer's portfolio of work samples, built using React.js and other modern web technologies. It serves as an essential tool for employers seeking candidates with experience in developing single-page applications, providing them with an interactive platform to assess potential employees' skills and suitability for open positions.
 
+[Here is a link to the live application](https://main--lvn-react-portfolio.netlify.app)
+
 ## Installation
 
 To set up the React Portfolio, follow these steps:
