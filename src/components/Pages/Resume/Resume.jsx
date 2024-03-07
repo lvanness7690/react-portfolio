@@ -7,7 +7,7 @@ function Resume() {
       <div className="summary-statement">
         <h2 className='page-header'>FULL-STACK DEVELOPER</h2>
         <p>With nearly a decade of diverse professional experience and a strong passion for technology, I am a certified Full Stack Developer from IBM and Columbia Engineering Bootcamp. I possess a strong work ethic, exceptional attention to detail, and thrive in collaborative team environments.</p>
-         <a href="./src/assets/Resume.pdf" download className="download-button">
+         <a href="https://github.com/lvanness7690/react-portfolio/blob/7cf331deaa038a36886b495e889fed66ae4a6a90/src/assets/Resume.pdf" download className="download-button">
       Download Resume
     </a>
       </div>
