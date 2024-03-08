@@ -28,7 +28,7 @@ const projectsData = [
     description: "Tech Blog is a CMS-style blog site for tech enthusiasts. Built with Node.js, Express.js, Sequelize, and Handlebars.js for a user-friendly interface. Developed with Node.js, Express.js, Sequelize, and Handlebars.js.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Tech-Blog.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/tech-blog",
-    liveUrl: "https://sheltered-dawn-76411-7b6d9da3363a.herokuapp.com/"
+    liveUrl: "https://stormy-bastion-41204-8176816fd2c1.herokuapp.com"
   },
 
   {
