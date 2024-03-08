@@ -12,7 +12,7 @@ const projectsData = [
     description: "Event Connect utilizes Ticketmaster's API for accessing musical events and local cities. It includes a message board for attendees to interact. Developed with React, CSS, and Ticketmaster API.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Event-Connect.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/event-connect",
-    liveUrl: "https://lvanness7690.github.io/cinematic-compass/"
+    liveUrl: "https://project-2-event-planner-3ca0203f2eb1.herokuapp.com"
   },
 
   {
