@@ -17,7 +17,7 @@ function Resume() {
           <section>
             <h2>EDUCATION</h2>
             <p>New York University</p>
-            <p>M.S. in Management</p>
+            <p>B.S. in Management</p>
             <p>🗓 2011 - 2014 📍 New York, NY</p>
             <p>University of St. Andrews</p>
             <p>Honors in Economics</p>
