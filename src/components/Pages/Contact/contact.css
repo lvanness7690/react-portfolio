@@ -12,6 +12,11 @@
   /* Explicitly center the heading to override any other styles if necessary */
   text-align: center;
 }
+
+.contact .whereby-video {
+  margin-bottom: 20px; /* Add space below the Whereby video */
+}
+
 .contact form {
   width: 100%; /* Ensure the form takes the full width of its parent */
   max-width: 800px; /* Set a max-width if you want to limit how wide the form can get */

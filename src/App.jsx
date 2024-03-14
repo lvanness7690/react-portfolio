@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import About from './components/Pages/About/About';
 import Portfolio from './components/Pages/Portfolio/Portfolio';
 import Contact from './components/Pages/Contact/Contact';
+import Meet from './components/Pages/Meet/Meet'; // Import the Meet component
 import Resume from './components/Pages/Resume/Resume';
 import Footer from './components/Footer/Footer'; // Make sure this path is correct
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/meet" element={<Meet />} /> {/* Add route for Meet page */}
             <Route path="/resume" element={<Resume />} />
             {/* You can add more routes here if you have additional sections */}
           </Routes>
