@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    title: "Study Sphere",
+    description: "StudySphere is a dynamic, interactive student social network designed to revolutionize the way students connect and study together online. By integrating real-time video study groups and interactive discussion boards, StudySphere offers a unique platform for academic collaboration and peer support. It's not just about studying alone; it's about creating a community of learners who can grow together.",
+    imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Study-Sphere.png?raw=true",
+    repoUrl: "https://github.com/lvanness7690/study-sphere",
+    liveUrl: "https://study-sphere.net"
+  },
+
+  {
     title: "Cinematic Compass",
     description: "Cinematic Compass is an engaging platform for TV show enthusiasts. It offers a streamlined way to discover and organize favorite shows. Built with React, CSS, and JavaScript.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Cinematic-Compass.png?raw=true",
