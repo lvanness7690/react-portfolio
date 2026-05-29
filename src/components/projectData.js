@@ -44,9 +44,8 @@ const projectsData = [
     description: "Note Taker is a user-friendly web tool for creating and organizing notes. It enhances productivity through efficient note management. Developed with HTML, CSS, and JavaScript.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Note-Taker.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/note-taker",
-    liveUrl: "https://stark-river-99853-172e93aa6e6f.herokuapp.com/"
+    liveUrl: "https://note-taker-green-gamma.vercel.app",
   },
-
   {
     title: "Weather Dashboard",
     description: "Weather Dashboard keeps track of weather across multiple cities. It fetches weather data from Open Weather API. Developed with HTML, CSS, JavaScript, and Open Weather API.",
