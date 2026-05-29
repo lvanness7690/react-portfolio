@@ -25,6 +25,19 @@ a:hover {
   color: #555555;
 }
 
+.icon-link,
+.icon-button-link {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.icon-link svg,
+.icon-button-link svg {
+  flex: none;
+  font-size: 0.95rem;
+}
+
 body {
   margin: 0;
   min-width: 320px;

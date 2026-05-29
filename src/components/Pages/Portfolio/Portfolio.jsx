@@ -1,4 +1,11 @@
 import React, { useRef } from 'react';
+import {
+  FaArrowUpRightFromSquare,
+  FaChevronLeft,
+  FaChevronRight,
+  FaFileLines,
+  FaGithub,
+} from 'react-icons/fa6';
 import projectsData from './../../projectData';
 import './portfolio.css';
 import crewControlScreen1 from '../../../assets/crew-control-screen-1.png';
@@ -72,11 +79,23 @@ function Portfolio() {
             case studies, testimonials, pricing, and implementation flow.
           </p>
           <div className="featured-links">
-            <a href="https://github.com/lvanness7690/crew-control" target="_blank" rel="noopener noreferrer">
-              GitHub Repo
+            <a
+              className="icon-button-link"
+              href="https://github.com/lvanness7690/crew-control"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub aria-hidden="true" />
+              <span>GitHub Repo</span>
             </a>
-            <a href="https://www.crewcontrolai.com" target="_blank" rel="noopener noreferrer">
-              Visit Live Site
+            <a
+              className="icon-button-link"
+              href="https://www.crewcontrolai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaArrowUpRightFromSquare aria-hidden="true" />
+              <span>Visit Live Site</span>
             </a>
           </div>
         </div>
@@ -94,21 +113,21 @@ function Portfolio() {
           <div className="gallery-controls" aria-label="Crew Control gallery controls">
             <button
               type="button"
-              className="gallery-arrow"
-              aria-label="Previous Crew Control screenshot"
-              onClick={() => scrollFeaturedGallery(-1)}
-            >
-              <span aria-hidden="true">&larr;</span>
-            </button>
-            <button
-              type="button"
-              className="gallery-arrow"
-              aria-label="Next Crew Control screenshot"
-              onClick={() => scrollFeaturedGallery(1)}
-            >
-              <span aria-hidden="true">&rarr;</span>
-            </button>
-          </div>
+            className="gallery-arrow"
+            aria-label="Previous Crew Control screenshot"
+            onClick={() => scrollFeaturedGallery(-1)}
+          >
+            <FaChevronLeft aria-hidden="true" />
+          </button>
+          <button
+            type="button"
+            className="gallery-arrow"
+            aria-label="Next Crew Control screenshot"
+            onClick={() => scrollFeaturedGallery(1)}
+          >
+            <FaChevronRight aria-hidden="true" />
+          </button>
+        </div>
         </div>
       </section>
 
@@ -128,8 +147,9 @@ function Portfolio() {
               <h4>{study.title}</h4>
               <p>{study.description}</p>
               <div className="project-links">
-                <a href={study.caseStudyUrl} target="_blank" rel="noopener noreferrer">
-                  Open Case Study
+                <a className="icon-button-link" href={study.caseStudyUrl} target="_blank" rel="noopener noreferrer">
+                  <FaFileLines aria-hidden="true" />
+                  <span>Open Case Study</span>
                 </a>
               </div>
             </article>
@@ -146,11 +166,13 @@ function Portfolio() {
             <div className="project-image">
               <img src={project.imageUrl} alt={project.title} />
               <div className="overlay">
-                <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                  GitHub Repo
+                <a className="icon-button-link" href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+                  <FaGithub aria-hidden="true" />
+                  <span>GitHub Repo</span>
                 </a>
-                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                  Live Application
+                <a className="icon-button-link" href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                  <FaArrowUpRightFromSquare aria-hidden="true" />
+                  <span>Live Application</span>
                 </a>
               </div>
             </div>

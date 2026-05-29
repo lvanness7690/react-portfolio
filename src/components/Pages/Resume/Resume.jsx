@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFileArrowDown } from 'react-icons/fa6';
 import './resume.css';
 import resumePdf from '../../../assets/Resume.pdf';
 
@@ -13,8 +14,9 @@ function Resume() {
           GTM systems, and client-facing platforms. I bring a builder-operator mindset shaped by AI
           workflow implementation, hospitality and corporate client delivery, and modern web systems.
         </p>
-        <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button">
-          Download Resume
+        <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button icon-button-link">
+          <FaFileArrowDown aria-hidden="true" />
+          <span>Download Resume</span>
         </a>
       </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowRightLong, FaEnvelope, FaFileLines } from 'react-icons/fa6';
 import './about.css';
 import headshot from '../../../assets/Headshot.png';
 
@@ -27,9 +28,18 @@ function About() {
             client delivery.
           </p>
           <div className="about-actions">
-            <a className="primary-action" href="/portfolio">View Work <span aria-hidden="true">{'->'}</span></a>
-            <a href="/resume">Resume</a>
-            <a href="mailto:leighton@vanness.net">Contact</a>
+            <a className="primary-action icon-button-link" href="/portfolio">
+              <FaArrowRightLong aria-hidden="true" />
+              <span>View Work</span>
+            </a>
+            <a className="icon-button-link" href="/resume">
+              <FaFileLines aria-hidden="true" />
+              <span>Resume</span>
+            </a>
+            <a className="icon-button-link" href="mailto:leighton@vanness.net">
+              <FaEnvelope aria-hidden="true" />
+              <span>Contact</span>
+            </a>
           </div>
         </div>
         <aside className="hero-card" aria-label="Leighton Van Ness profile summary">
