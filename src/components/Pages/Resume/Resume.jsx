@@ -31,12 +31,12 @@ function Resume() {
             <div className="panel-scroll panel-scroll-compact">
               <div className="resume-stack">
                 <p>CU Boulder</p>
-                <p>M.S. in Computer Science, Expected June 2027</p>
+                <p>M.S. Computer Science, Estimated Completion 2026</p>
                 <p>New York University</p>
-                <p>B.A. in Management</p>
+                <p>Management</p>
                 <p>2011 - 2013 | New York, NY</p>
                 <p>University of St. Andrews</p>
-                <p>Honors in Economics</p>
+                <p>Economics</p>
                 <p>2009 - 2011 | St. Andrews, Scotland, UK</p>
               </div>
             </div>
