@@ -8,12 +8,15 @@ function Resume() {
     <div className="resume">
       <div className="summary-statement">
         <p className="eyebrow resume-eyebrow">Resume</p>
-        <h2 className='page-header'>AI Workflow, Implementation &amp; Technical Operations Lead</h2>
+        <h2 className='page-header'>Implementation, AI Workflow &amp; Customer-Facing Systems Lead</h2>
         <p>
-          Customer-facing systems builder focused on implementation, internal tools, operational
-          systems, automation, GTM systems, and client-facing platforms. I bring a builder-operator
-          mindset shaped by AI workflow adoption, hospitality and corporate client delivery, and
-          modern web systems.
+          Implementation, AI workflow, and customer-facing systems lead focused on building and improving
+          the workflows teams rely on to serve customers, run operations, and grow revenue. I build
+          internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled
+          processes that help non-technical teams work faster and with more structure. Known for
+          translating between stakeholders, client needs, and technical systems across hospitality and
+          corporate-client delivery, I combine hands-on building with implementation depth, operational
+          judgment, and practical AI adoption.
         </p>
         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button icon-button-link">
           <FaFileArrowDown aria-hidden="true" />

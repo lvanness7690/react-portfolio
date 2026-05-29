@@ -18,24 +18,16 @@ function About() {
     <div className="about-page">
       <section className="about-hero">
         <div className="about-copy">
-          <p className="eyebrow">AI workflow, implementation, and customer-facing systems</p>
-          <h2>I build customer-facing systems, internal tools, and AI workflows that make teams faster.</h2>
+          <p className="eyebrow">Implementation, AI workflow, and customer-facing systems</p>
+          <h2>I build customer-facing systems, AI workflows, and internal tools that help teams deliver.</h2>
           <p>
-            I work at the intersection of operations, client delivery, GTM, and software: turning messy
-            manual processes into dashboards, automations, registration platforms, website systems,
-            prospecting workflows, and practical AI tools that non-technical teams can actually use.
-          </p>
-          <p>
-            Recently, I built and manage the Elevate Dashboard with React, serverless Node.js API routes
-            on Vercel, Redis/Upstash, Google Sheets API workflows, GitHub CI/CD, and Playwright checks.
-            I also helped lead the Elevate website launch and related GTM systems work, and I serve as the
-            go-to person for applying Claude, OpenAI/ChatGPT, Codex, and related tools to real business
-            workflows across research, lead generation, email marketing, operations, and internal tooling.
-          </p>
-          <p>
-            My background also includes customer-facing systems, implementation-heavy operations, live event
-            production, technical account-style coordination, and workflow ownership across premium
-            hospitality and corporate client delivery.
+            Implementation, AI workflow, and customer-facing systems lead focused on building and improving
+            the workflows teams rely on to serve customers, run operations, and grow revenue. I build
+            internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled
+            processes that help non-technical teams work faster and with more structure. Known for
+            translating between stakeholders, client needs, and technical systems across hospitality and
+            corporate-client delivery, I combine hands-on building with implementation depth, operational
+            judgment, and practical AI adoption.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
