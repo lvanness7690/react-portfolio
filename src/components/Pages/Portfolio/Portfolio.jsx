@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import projectsData from './../../projectData';
 import './portfolio.css';
 import crewControlScreen1 from '../../../assets/crew-control-screen-1.png';
@@ -7,6 +7,21 @@ import crewControlScreen3 from '../../../assets/crew-control-screen-3.png';
 import crewControlScreen4 from '../../../assets/crew-control-screen-4.png';
 
 function Portfolio() {
+  const featuredGalleryRef = useRef(null);
+
+  const scrollFeaturedGallery = (direction) => {
+    const gallery = featuredGalleryRef.current;
+
+    if (!gallery) {
+      return;
+    }
+
+    gallery.scrollBy({
+      left: direction * gallery.clientWidth,
+      behavior: 'smooth',
+    });
+  };
+
   const caseStudies = [
     {
       title: 'Elevate Dashboard',
@@ -65,11 +80,33 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="featured-gallery" aria-label="Crew Control screenshot gallery">
-          <img src={crewControlScreen1} alt="Crew Control overview" className="featured-shot" />
-          <img src={crewControlScreen2} alt="Crew Control automations calendar view" className="featured-shot" />
-          <img src={crewControlScreen3} alt="Crew Control project board" className="featured-shot" />
-          <img src={crewControlScreen4} alt="Crew Control agent chat modal" className="featured-shot" />
+        <div className="featured-media">
+          <button
+            type="button"
+            className="gallery-arrow gallery-arrow-prev"
+            aria-label="Previous Crew Control screenshot"
+            onClick={() => scrollFeaturedGallery(-1)}
+          >
+            <span aria-hidden="true">&larr;</span>
+          </button>
+          <div
+            className="featured-gallery"
+            aria-label="Crew Control screenshot gallery"
+            ref={featuredGalleryRef}
+          >
+            <img src={crewControlScreen1} alt="Crew Control overview" className="featured-shot" />
+            <img src={crewControlScreen2} alt="Crew Control automations calendar view" className="featured-shot" />
+            <img src={crewControlScreen3} alt="Crew Control project board" className="featured-shot" />
+            <img src={crewControlScreen4} alt="Crew Control agent chat modal" className="featured-shot" />
+          </div>
+          <button
+            type="button"
+            className="gallery-arrow gallery-arrow-next"
+            aria-label="Next Crew Control screenshot"
+            onClick={() => scrollFeaturedGallery(1)}
+          >
+            <span aria-hidden="true">&rarr;</span>
+          </button>
         </div>
       </section>
 
