@@ -8,11 +8,12 @@ function Resume() {
     <div className="resume">
       <div className="summary-statement">
         <p className="eyebrow resume-eyebrow">Resume</p>
-        <h2 className='page-header'>AI Workflow &amp; Technical Operations Lead</h2>
+        <h2 className='page-header'>AI Workflow, Implementation &amp; Technical Operations Lead</h2>
         <p>
-          Customer-facing systems builder focused on internal tools, operational systems, automation,
-          GTM systems, and client-facing platforms. I bring a builder-operator mindset shaped by AI
-          workflow implementation, hospitality and corporate client delivery, and modern web systems.
+          Customer-facing systems builder focused on implementation, internal tools, operational
+          systems, automation, GTM systems, and client-facing platforms. I bring a builder-operator
+          mindset shaped by AI workflow adoption, hospitality and corporate client delivery, and
+          modern web systems.
         </p>
         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button icon-button-link">
           <FaFileArrowDown aria-hidden="true" />

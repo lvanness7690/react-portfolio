@@ -18,24 +18,24 @@ function About() {
     <div className="about-page">
       <section className="about-hero">
         <div className="about-copy">
-          <p className="eyebrow">AI workflow and technical operations lead</p>
-          <h2>I build the internal tools and AI workflows that make teams faster.</h2>
+          <p className="eyebrow">AI workflow, implementation, and customer-facing systems</p>
+          <h2>I build customer-facing systems, internal tools, and AI workflows that make teams faster.</h2>
           <p>
-            I work at the intersection of operations, product, GTM, and software: turning messy manual
-            processes into dashboards, automations, event platforms, prospecting systems, and practical
-            AI workflows that non-technical teams can actually use.
+            I work at the intersection of operations, client delivery, GTM, and software: turning messy
+            manual processes into dashboards, automations, registration platforms, website systems,
+            prospecting workflows, and practical AI tools that non-technical teams can actually use.
           </p>
           <p>
             Recently, I built and manage the Elevate Dashboard with React, serverless Node.js API routes
             on Vercel, Redis/Upstash, Google Sheets API workflows, GitHub CI/CD, and Playwright checks.
-            I also serve as the go-to person for applying Claude, OpenAI/ChatGPT, Codex, and related tools
-            to real business workflows across research, lead generation, email marketing, operations, and
-            internal tooling.
+            I also helped lead the Elevate website launch and related GTM systems work, and I serve as the
+            go-to person for applying Claude, OpenAI/ChatGPT, Codex, and related tools to real business
+            workflows across research, lead generation, email marketing, operations, and internal tooling.
           </p>
           <p>
-            My background also includes customer-facing systems, GTM workflows, live event production,
-            implementation-heavy operations, and technical execution across premium hospitality and corporate
-            client delivery.
+            My background also includes customer-facing systems, implementation-heavy operations, live event
+            production, technical account-style coordination, and workflow ownership across premium
+            hospitality and corporate client delivery.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
@@ -96,11 +96,11 @@ function About() {
           <dl>
             <div>
               <dt>Current focus</dt>
-              <dd>AI adoption, internal systems, GTM workflows</dd>
+              <dd>AI adoption, customer-facing systems, GTM workflows</dd>
             </div>
             <div>
               <dt>Target roles</dt>
-              <dd>AI ops, technical ops, solutions, product ops</dd>
+              <dd>Customer success, implementation, technical account, product ops</dd>
             </div>
           </dl>
         </aside>
@@ -125,8 +125,8 @@ function About() {
           <span className="highlight-icon" aria-hidden="true">
             <FaChartLine />
           </span>
-          <h3>Customer-Facing Ops</h3>
-          <p>Own website operations, analytics, CRM integration support, and technical execution across premium hospitality and corporate client delivery.</p>
+          <h3>Implementation & Delivery</h3>
+          <p>Own website operations, analytics, CRM integration support, registration systems, and technical execution across premium hospitality and corporate client delivery.</p>
         </div>
       </section>
 
@@ -138,10 +138,10 @@ function About() {
           hands-on building, systems thinking, implementation depth, and customer or internal workflow insight.
         </p>
         <ul>
-          <li>AI operations and workflow implementation</li>
-          <li>Technical operations and internal tools</li>
-          <li>Customer success, solutions, and implementation</li>
-          <li>GTM systems, automation, and revenue operations tooling</li>
+          <li>Customer success, technical account, and implementation roles</li>
+          <li>AI operations, workflow operations, and support-heavy systems roles</li>
+          <li>Product operations, business operations, and internal tools</li>
+          <li>GTM systems, automation, and revenue or marketing operations</li>
         </ul>
       </section>
     </div>

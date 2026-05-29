@@ -56,15 +56,30 @@ function Portfolio() {
         'A proprietary streaming platform repurposed into a branded registration system for in-person, virtual, and hybrid client experiences with custom event pages, galleries, maps, and support flows.',
       caseStudyUrl: '/case-studies/zincstream-invitemenow-platform.html',
     },
+    {
+      title: 'Hive Rollout & Workflow Automation',
+      category: 'Internal systems / workflow ops',
+      description:
+        'Division-wide Hive rollout with custom workflows, forms, Salesforce-connected automations, and operating structure that improved coordination, efficiency, and adoption across teams.',
+      caseStudyUrl: '/case-studies/hive-rollout-workflow-automation.html',
+    },
+    {
+      title: 'Elevate Website Launch & GTM Systems',
+      category: 'Website ops / GTM systems / implementation',
+      description:
+        'Launch and post-launch operations for a premium hospitality marketing site, including stakeholder coordination, QA, SEO, analytics, inquiry flows, and CRM-connected GTM support.',
+      caseStudyUrl: '/case-studies/elevate-website-launch-gtm-systems.html',
+    },
   ];
 
   return (
     <div className="portfolio">
       <p className="eyebrow portfolio-eyebrow">Selected work</p>
-      <h2 className="portfolio-title">Internal tools, AI workflows, and full-stack systems.</h2>
+      <h2 className="portfolio-title">Customer-facing systems, AI workflows, and operational platforms.</h2>
       <p className="portfolio-description">
-        Recent work first: productized AI workflows, internal operations systems, and real-world automation.
-        Earlier full-stack projects are included underneath for technical breadth.
+        Recent work first: implementation-heavy systems, internal operations platforms, GTM workflows,
+        and client-delivery tools built for real business environments. Earlier technical projects are
+        included underneath as proof of technical fluency.
       </p>
 
       <section className="featured-project">
@@ -141,8 +156,8 @@ function Portfolio() {
           <p className="featured-label">Case Studies</p>
           <h3>Systems Built for Real-World Operations</h3>
           <p>
-            Operational systems I built for planning, logistics, prospecting, and internal execution
-            in live business environments.
+            Operational and customer-facing systems I built for planning, workflow automation, GTM
+            execution, website operations, logistics, and client delivery in live business environments.
           </p>
         </div>
         <div className="case-study-grid">
@@ -162,7 +177,7 @@ function Portfolio() {
         </div>
       </section>
 
-      <h3 className="section-label">Additional Technical Projects</h3>
+      <h3 className="section-label">Earlier Technical Projects</h3>
       <div className="projects">
         {projectsData.map((project, index) => (
           <article key={index} className="project">
