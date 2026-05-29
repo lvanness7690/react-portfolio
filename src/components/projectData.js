@@ -1,84 +1,52 @@
 const projectsData = [
   {
     title: "Study Sphere",
-    description: "StudySphere is a collaborative student study platform designed to help learners connect and work together online. By integrating real-time video study groups and interactive discussion boards, StudySphere supports academic collaboration, accountability, and peer support in one shared environment.",
+    category: "Full-stack MERN / GraphQL",
+    description: "Collaborative student study platform combining real-time study groups and discussion workflows. Built with MongoDB, Express, React, Node.js, GraphQL, Apollo Server, and JWT authentication.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Study-Sphere.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/study-sphere",
     liveUrl: "https://study-sphere.net"
   },
-
   {
     title: "Cinematic Compass",
-    description: "Cinematic Compass is an engaging platform for TV show enthusiasts. It offers a streamlined way to discover and organize favorite shows. Built with React, CSS, and JavaScript.",
+    category: "API integration",
+    description: "TV discovery app using third-party entertainment APIs, JavaScript, HTML, CSS, and Bulma.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Cinematic-Compass.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/cinematic-compass",
     liveUrl: "https://lvanness7690.github.io/cinematic-compass/"
   },
-
   {
     title: "Event Connect",
-    description: "Event Connect utilizes Ticketmaster's API for accessing musical events and local cities. It includes a message board for attendees to interact. Developed with React, CSS, and Ticketmaster API.",
+    category: "Node / Express / MySQL",
+    description: "Ticketmaster-powered event application with REST APIs, MySQL, Sequelize, Handlebars, express-session, cookies, and MVC architecture. Database-backed code sample linked for review.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Event-Connect.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/event-connect",
     liveUrl: "https://project-2-event-planner-3ca0203f2eb1.herokuapp.com"
   },
-
   {
     title: "PWA Text Editor",
-    description: "PWA Text Editor allows developers to create and manage notes or code snippets offline. It features IndexedDB for data persistence and is built as a Progressive Web Application. Developed with React, CSS, and IndexedDB.",
+    category: "PWA / IndexedDB",
+    description: "Progressive web app text editor with offline persistence using IndexedDB, Webpack, Babel, Node.js, Express.js, and service-worker style workflows.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/PWA-Text-Editor.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/pwa-text-editor",
-    liveUrl: "https://young-brushlands-65623-5b006d80757b.herokuapp.com/"
+    liveUrl: "https://pwa-text-editor-pi.vercel.app"
   },
-
-  {
-    title: "Tech Blog",
-    description: "Tech Blog is a CMS-style blog site for tech enthusiasts. Built with Node.js, Express.js, Sequelize, and Handlebars.js for a user-friendly interface. Developed with Node.js, Express.js, Sequelize, and Handlebars.js.",
-    imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Tech-Blog.png?raw=true",
-    repoUrl: "https://github.com/lvanness7690/tech-blog",
-    liveUrl: "https://stormy-bastion-41204-8176816fd2c1.herokuapp.com"
-  },
-
   {
     title: "Note Taker",
-    description: "Note Taker is a user-friendly web tool for creating and organizing notes. It enhances productivity through efficient note management. Developed with HTML, CSS, and JavaScript.",
+    category: "Node / Express",
+    description: "Express application for creating, viewing, saving, and deleting notes. Deployed on Vercel with serverless routing.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Note-Taker.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/note-taker",
-    liveUrl: "https://stark-river-99853-172e93aa6e6f.herokuapp.com/"
+    liveUrl: "https://note-taker-green-gamma.vercel.app"
   },
-
   {
     title: "Weather Dashboard",
-    description: "Weather Dashboard keeps track of weather across multiple cities. It fetches weather data from Open Weather API. Developed with HTML, CSS, JavaScript, and Open Weather API.",
+    category: "Browser app / API",
+    description: "Weather lookup app using HTML, CSS, JavaScript, Materialize, and the OpenWeather API.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/weather-dashboard",
     liveUrl: "https://lvanness7690.github.io/weather-dashboard/"
-  },
-
-  {
-    title: "Work Day Scheduler",
-    description: "Work Day Scheduler is a simple calendar application for saving events from 9am to 5pm. Developed with HTML, CSS, jQuery, and JavaScript.",
-    imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Work-Day-Scheduler.png?raw=true",
-    repoUrl: "https://github.com/lvanness7690/work-day-scheduler",
-    liveUrl: "https://lvanness7690.github.io/work-day-scheduler/"
-  },
-
-  {
-    title: "Code Quiz",
-    description: "Code Quiz is a timed quiz with multiple-choice questions. Developed with HTML, CSS, and JavaScript for a clean, responsive UI.",
-    imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Code-Quiz.png?raw=true",
-    repoUrl: "https://github.com/lvanness7690/code-quiz",
-    liveUrl: "https://lvanness7690.github.io/code-quiz/"
-  },
-
-  {
-    title: "Password Generator",
-    description: "Password Generator creates random passwords based on user-selected criteria. Developed with HTML, CSS, and JavaScript for a responsive UI.",
-    imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Password-Generator.png?raw=true",
-    repoUrl: "https://github.com/lvanness7690/password-generator",
-    liveUrl: "https://lvanness7690.github.io/password-generator/"
-  },
-  // Add more projects as needed
+  }
 ];
 
 export default projectsData;

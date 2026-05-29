@@ -1,91 +1,105 @@
 .resume {
-  padding: 100px 20px; /* Top padding equal to the height of the navbar */
-  padding-bottom: var(--footer-height); /* Bottom padding equal to the height of the footer */
-  overflow-y: auto; /* Allows scrolling within the container */
-  margin-top: var(--navbar-height); /* Push content down below the navbar */
-  margin-bottom: var(--footer-height); /* Push content up above the footer */
-}
-
-/* Define CSS variables for the height of the navbar and footer */
-:root {
-  --navbar-height: 100px; /* Adjust this value to match your navbar's actual height */
-  --footer-height: 100px; /* Adjust this value to match your footer's actual height */
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 72px 24px 88px;
+  text-align: left;
 }
 
 .download-button {
-  display: inline-block;
+  display: inline-flex;
   padding: 10px 20px;
   margin-top: 20px;
   margin-bottom: 40px;
   font-size: 16px;
   text-decoration: none;
   color: #fff;
-  background-color: #0000EE;
-  border: none;
-  border-radius: 5px;
+  background-color: #111;
+  border: 1px solid #111;
   cursor: pointer;
 }
 
 .download-button:hover {
-  background-color: #444;
+  background-color: #fff;
+  color: #111;
 }
 
 .page-header {
+  font-size: clamp(2.1rem, 5vw, 4.2rem);
+  letter-spacing: 0;
+  line-height: 1;
   text-align: center;
-  margin-bottom: 20px; /* Space below the header */
+  margin: 0 auto 20px;
+  max-width: 900px;
 }
-.summary-statement h1, .summary-statement p {
+
+.resume-eyebrow,
+.summary-statement p {
   text-align: center;
-  margin-bottom: 30px; /* Space below the summary statement */
+}
+
+.summary-statement p {
+  color: #333;
+  font-size: 1.05rem;
+  margin: 0 auto 20px;
+  max-width: 900px;
+}
+
+.summary-statement {
+  text-align: center;
 }
 
 .columns {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px; /* Spacing between columns */
+  display: grid;
+  gap: 32px;
+  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
 }
 
-.left-column, .right-column {
-  flex-basis: 48%;
-  max-width: 600px; /* Maximum width to prevent the columns from getting too wide */
+.left-column,
+.right-column {
   text-align: left;
 }
 
-.left-column section {
-  margin-bottom: 80px;
-}
-.skills-list, .work-experience-item {
-  list-style-type: disc;
-  padding-left: 40px;
+.left-column section,
+.right-column section {
+  border-top: 2px solid #111;
+  margin-bottom: 36px;
+  padding-top: 16px;
 }
 
-h1, h2, h3, p, ul, li {
+.skills-list,
+.work-experience-item {
+  list-style-type: disc;
+  padding-left: 22px;
+  line-height: 1.55;
+}
+
+.resume h1,
+.resume h2,
+.resume h3,
+.resume p,
+.resume ul,
+.resume li {
   text-align: left;
   margin-bottom: 10px;
 }
 
-a {
-  color: #0000EE;
-  text-decoration: none;
+.resume section h2 {
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-/* Add more media queries as necessary for responsive design */
+.resume h3 {
+  font-size: 1.12rem;
+  margin-top: 22px;
+}
+
 @media (max-width: 800px) {
   .columns {
-    flex-direction: column;
-  }
-
-  .left-column, .right-column {
-    flex-basis: 100%;
+    grid-template-columns: 1fr;
   }
 
   .resume {
-    padding-top: var(--navbar-height-mobile); /* Adjust for mobile navbar height */
-    padding-bottom: var(--footer-height-mobile); /* Adjust for mobile footer height */
-  }
-
-  :root {
-    --navbar-height-mobile: 60px; /* Adjust this value for mobile navbar height */
-    --footer-height-mobile: 50px; /* Adjust this value for mobile footer height */
+    padding-top: 44px;
   }
 }

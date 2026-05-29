@@ -1,14 +1,44 @@
 import React from 'react';
-import { FaGithub, FaLaptopCode } from 'react-icons/fa'; // Import GitHub and Laptop Code icons from Font Awesome
-import projectsData from './../../projectData'; 
+import projectsData from './../../projectData';
 import './portfolio.css';
-import crewControlOverview from '../../../assets/crew-control-overview.png';
+import crewControlScreen1 from '../../../assets/crew-control-screen-1.png';
+import crewControlScreen2 from '../../../assets/crew-control-screen-2.png';
+import crewControlScreen3 from '../../../assets/crew-control-screen-3.png';
+import crewControlScreen4 from '../../../assets/crew-control-screen-4.png';
 
 function Portfolio() {
+  const caseStudies = [
+    {
+      title: 'Elevate Dashboard',
+      category: 'Internal tools / technical operations',
+      description:
+        'Internal operations platform centralizing planning, ticket workflows, user administration, vendor coordination, exports, QA, and production management.',
+      caseStudyUrl: '/case-studies/elevate-dashboard.html',
+    },
+    {
+      title: 'AI Prospecting & GTM Workflow',
+      category: 'AI workflow / GTM systems',
+      description:
+        'Practical Claude, OpenAI, ZoomInfo, and Outreach workflow for company research, lead enrichment, campaign prep, and AI adoption across a non-technical team.',
+      caseStudyUrl: '/case-studies/ai-prospecting-gtm-workflow.html',
+    },
+    {
+      title: 'Inventory & Logistics Tracker',
+      category: 'Automation / operations',
+      description:
+        'Google Forms, Sheets, and Apps Script tracker supporting a recurring three-year event series spanning roughly 60 events, 600 shipped bins, and 12,000 to 24,000 tracked items.',
+      caseStudyUrl: '/case-studies/inventory-logistics-tracker.html',
+    },
+  ];
+
   return (
     <div className="portfolio">
-      <h2 className="portfolio-title">MY PORTFOLIO</h2>
-      <p className="portfolio-description">Selected product, platform, and application work across internal tools, AI workflow operations, and full-stack builds.</p>
+      <p className="eyebrow portfolio-eyebrow">Selected work</p>
+      <h2 className="portfolio-title">Internal tools, AI workflows, and full-stack systems.</h2>
+      <p className="portfolio-description">
+        Recent work first: productized AI workflows, internal operations systems, and real-world automation.
+        Earlier full-stack projects are included underneath for technical breadth.
+      </p>
 
       <section className="featured-project">
         <div className="featured-copy">
@@ -27,74 +57,66 @@ function Portfolio() {
             case studies, testimonials, pricing, and implementation flow.
           </p>
           <div className="featured-links">
+            <a href="https://github.com/lvanness7690/crew-control" target="_blank" rel="noopener noreferrer">
+              GitHub Repo
+            </a>
             <a href="https://www.crewcontrolai.com" target="_blank" rel="noopener noreferrer">
-              <FaLaptopCode size={16} /> Visit Live Site
+              Visit Live Site
             </a>
           </div>
         </div>
-        <div className="featured-image-wrap">
-          <img src={crewControlOverview} alt="Crew Control overview screenshot" className="featured-image" />
+        <div className="featured-gallery" aria-label="Crew Control screenshot gallery">
+          <img src={crewControlScreen1} alt="Crew Control overview" className="featured-shot" />
+          <img src={crewControlScreen2} alt="Crew Control automations calendar view" className="featured-shot" />
+          <img src={crewControlScreen3} alt="Crew Control project board" className="featured-shot" />
+          <img src={crewControlScreen4} alt="Crew Control agent chat modal" className="featured-shot" />
         </div>
       </section>
 
       <section className="case-study-section">
         <div className="case-study-header">
-          <p className="featured-label">Selected Case Studies</p>
+          <p className="featured-label">Case Studies</p>
           <h3>Systems Built for Real-World Operations</h3>
           <p>
-            Beyond product prototypes and software projects, I have built internal systems that
-            supported recurring client programs, large-scale logistics, and event operations in live
-            business environments.
+            Operational systems I built for planning, logistics, prospecting, and internal execution
+            in live business environments.
           </p>
         </div>
         <div className="case-study-grid">
-          <article className="case-study-card">
-            <h4>Inventory & Logistics Tracker</h4>
-            <p>
-              Built an automated tracking system with Google Forms, Google Sheets, and Apps Script
-              for a recurring three-year event series spanning roughly 60 events, 600 shipped bins,
-              and about 12,000 to 24,000 tracked items.
-            </p>
-            <p>
-              The workflow handled event intake, shipment status, replacement logs, inventory alerts,
-              damaged-item notifications, and automated recap reporting so the team could operate with
-              more visibility and fewer manual handoffs.
-            </p>
-          </article>
-          <article className="case-study-card">
-            <h4>InviteMeNow Platform</h4>
-            <p>
-              Helped build Zinc Agency&apos;s virtual-event infrastructure and later repurposed it into
-              InviteMeNow, a branded registration platform for in-person, virtual, and hybrid client
-              programs.
-            </p>
-            <p>
-              The platform reduced reliance on external event SaaS tools, supported custom client
-              wrappers, and used API-based integrations to deliver a more flexible registration and
-              streaming experience across changing event formats.
-            </p>
-          </article>
+          {caseStudies.map((study) => (
+            <article key={study.title} className="case-study-card">
+              <p className="project-category">{study.category}</p>
+              <h4>{study.title}</h4>
+              <p>{study.description}</p>
+              <div className="project-links">
+                <a href={study.caseStudyUrl} target="_blank" rel="noopener noreferrer">
+                  Open Case Study
+                </a>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
-      <p className="portfolio-description">Additional projects below. Hover over an image to view the GitHub repo and live application when available.</p>
+      <h3 className="section-label">Additional Technical Projects</h3>
       <div className="projects">
         {projectsData.map((project, index) => (
-          <div key={index} className="project">
+          <article key={index} className="project">
             <h3>{project.title}</h3>
+            <p className="project-category">{project.category}</p>
             <div className="project-image">
               <img src={project.imageUrl} alt={project.title} />
               <div className="overlay">
                 <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                  <FaGithub size={16} /> GitHub Repo
+                  GitHub Repo
                 </a>
                 <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                  <FaLaptopCode size={16} /> Live Application
+                  Live Application
                 </a>
               </div>
             </div>
             <p className="description">{project.description}</p>
-          </div>
+          </article>
         ))}
       </div>
     </div>
