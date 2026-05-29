@@ -33,7 +33,9 @@ function About() {
           </div>
         </div>
         <aside className="hero-card" aria-label="Leighton Van Ness profile summary">
-          <img src={headshot} alt="Leighton Van Ness" className="headshot" />
+          <div className="hero-card-media">
+            <img src={headshot} alt="Leighton Van Ness" className="headshot" />
+          </div>
           <div>
             <strong>Leighton Van Ness</strong>
             <span>VP, Innovation</span>

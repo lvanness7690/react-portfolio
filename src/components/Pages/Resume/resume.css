@@ -104,17 +104,17 @@
 }
 
 .panel-scroll {
-  max-height: 300px;
+  max-height: 360px;
   overflow-y: auto;
   padding-right: 8px;
 }
 
 .panel-scroll-compact {
-  max-height: 170px;
+  max-height: 220px;
 }
 
 .panel-scroll-work {
-  max-height: 760px;
+  max-height: 1100px;
 }
 
 .resume-stack p:last-child {

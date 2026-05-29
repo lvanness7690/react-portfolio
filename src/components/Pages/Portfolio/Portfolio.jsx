@@ -81,14 +81,6 @@ function Portfolio() {
           </div>
         </div>
         <div className="featured-media">
-          <button
-            type="button"
-            className="gallery-arrow gallery-arrow-prev"
-            aria-label="Previous Crew Control screenshot"
-            onClick={() => scrollFeaturedGallery(-1)}
-          >
-            <span aria-hidden="true">&larr;</span>
-          </button>
           <div
             className="featured-gallery"
             aria-label="Crew Control screenshot gallery"
@@ -99,14 +91,24 @@ function Portfolio() {
             <img src={crewControlScreen3} alt="Crew Control project board" className="featured-shot" />
             <img src={crewControlScreen4} alt="Crew Control agent chat modal" className="featured-shot" />
           </div>
-          <button
-            type="button"
-            className="gallery-arrow gallery-arrow-next"
-            aria-label="Next Crew Control screenshot"
-            onClick={() => scrollFeaturedGallery(1)}
-          >
-            <span aria-hidden="true">&rarr;</span>
-          </button>
+          <div className="gallery-controls" aria-label="Crew Control gallery controls">
+            <button
+              type="button"
+              className="gallery-arrow"
+              aria-label="Previous Crew Control screenshot"
+              onClick={() => scrollFeaturedGallery(-1)}
+            >
+              <span aria-hidden="true">&larr;</span>
+            </button>
+            <button
+              type="button"
+              className="gallery-arrow"
+              aria-label="Next Crew Control screenshot"
+              onClick={() => scrollFeaturedGallery(1)}
+            >
+              <span aria-hidden="true">&rarr;</span>
+            </button>
+          </div>
         </div>
       </section>
 

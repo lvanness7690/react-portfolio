@@ -9,10 +9,9 @@ function Resume() {
         <p className="eyebrow resume-eyebrow">Resume</p>
         <h2 className='page-header'>AI Workflow &amp; Technical Operations Lead</h2>
         <p>
-          Customer-facing systems builder with experience across internal tools, AI workflow adoption,
-          implementation-heavy operations, GTM systems, and client delivery. I bring a builder-operator
-          mindset shaped by real production work in hospitality, corporate client experiences, live event
-          operations, and modern web systems.
+          Customer-facing systems builder focused on internal tools, operational systems, automation,
+          GTM systems, and client-facing platforms. I bring a builder-operator mindset shaped by AI
+          workflow implementation, hospitality and corporate client delivery, and modern web systems.
         </p>
         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button">
           Download Resume
@@ -54,20 +53,19 @@ function Resume() {
             <div className="panel-scroll">
               <ul className="skills-list">
                 <li>JavaScript / TypeScript</li>
-                <li>React</li>
-                <li>Node.js / Express.js</li>
-                <li>REST APIs / GraphQL</li>
-                <li>HTML / CSS</li>
-                <li>Redis / Upstash / Vercel KV</li>
-                <li>MongoDB / Mongoose</li>
-                <li>MySQL / Sequelize</li>
-                <li>Google Sheets API / Apps Script</li>
-                <li>GitHub / CI/CD / Vercel</li>
-                <li>Playwright / Jest</li>
+                <li>React / CRA / Vite</li>
+                <li>Node.js / Express.js / serverless routes</li>
+                <li>REST APIs / GraphQL / Apollo</li>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Redis / Upstash / Vercel KV / Convex</li>
+                <li>MongoDB / Mongoose / MySQL / Sequelize</li>
+                <li>Google Sheets API / Apps Script / Google Forms</li>
+                <li>GitHub / CI-CD / Vercel / preview deploys</li>
+                <li>Playwright / Jest / build checks</li>
                 <li>Salesforce / HubSpot / Zapier</li>
-                <li>ZoomInfo / Outreach</li>
-                <li>Claude / OpenAI / Codex</li>
-                <li>WordPress / WPEngine / Cloudflare / Web APIs</li>
+                <li>ZoomInfo / Outreach / SEO / Google Analytics</li>
+                <li>Claude / OpenAI / Codex / OpenClaw</li>
+                <li>WordPress / WPEngine / Cloudflare / Whereby APIs</li>
               </ul>
             </div>
           </section>
@@ -82,11 +80,16 @@ function Resume() {
                 <p>Elevate Experiences</p>
                 <p>2024 - Present | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Built and manage the Elevate Dashboard, an internal operations platform supporting premium hospitality and corporate client experiences across planning, ticketing, user administration, vendor and chef coordination, and production workflows.</li>
-                  <li>Serve as the team&apos;s AI and workflow implementation lead, helping colleagues adopt practical AI systems across research, prospecting, internal automation, and day-to-day execution.</li>
-                  <li>Oversee technical production for recurring virtual events and private concerts, coordinating clients, venues, production teams, and delivery stakeholders across live experiences.</li>
-                  <li>Oversee website operations, analytics, content updates, and Salesforce/HubSpot integration support tied to client engagement and demand generation.</li>
-                  <li>Built AI-assisted prospecting workflows using Claude, OpenAI, ZoomInfo, and Outreach, and automated logistics workflows using Google Forms, Sheets, and Apps Script.</li>
+                  <li>Built and manage the Elevate Dashboard, an internal operations platform centralizing event planning, ticketing workflows, user administration, vendor and chef coordination, and production management for premium hospitality and corporate client experiences.</li>
+                  <li>Serve as the team&apos;s AI and workflow implementation lead, piloting practical use cases and helping colleagues apply AI systems to research, prospecting, internal automation, and day-to-day execution.</li>
+                  <li>Oversee the technical production layer for roughly 25 virtual events annually and 5 to 10 private concerts and large-format live experiences each year, coordinating production teams, clients, venues, and stakeholders.</li>
+                  <li>Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch improvements.</li>
+                  <li>Manage website operations post-launch, including content updates, SEO hygiene, Google Analytics, and Salesforce, HubSpot, and related integration workflows tied to client engagement and demand generation.</li>
+                  <li>Developed the platform using React, serverless Node.js API routes on Vercel, Redis/Upstash, Google Sheets API workflows, GitHub CI/CD, and production-readiness testing.</li>
+                  <li>Implemented auth, users, invites, roles, permissions, event and ticket data models, admin tooling, and production safety workflows.</li>
+                  <li>Added PDF and Word exports, regression coverage, build checks, Playwright smoke tests, deployment verification, weekly audit workflows, and release reporting.</li>
+                  <li>Built AI-assisted prospecting workflows using Claude, ZoomInfo, and Outreach to research companies, create targeted prospect lists, enrich lead data, and support outbound email marketing campaigns.</li>
+                  <li>Built and automated an inventory and logistics tracker with Google Forms, Google Sheets, and Apps Script to manage a recurring three-year event series spanning roughly 60 events, 600 shipped bins, and about 12,000 to 24,000 tracked items.</li>
                 </ul>
               </div>
               <div className="resume-role">
@@ -95,10 +98,11 @@ function Resume() {
                 <p>2020 - 2024 | New York, NY</p>
                 <ul className="work-experience-item">
                   <li>Led the company&apos;s pivot to virtual programming during COVID, building the technical platform that preserved delivery for corporate hospitality clients while in-person events were shut down.</li>
-                  <li>Engineered a custom streaming and registration platform using WordPress, JavaScript, CSS, HTML, Cloudflare, WPEngine, web APIs, and embedded meeting infrastructure including Whereby.</li>
-                  <li>Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows that still support day-to-day operations across Zinc Agency and Elevate Experiences.</li>
+                  <li>Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows and operating structure still used daily across Zinc Agency and Elevate Experiences.</li>
+                  <li>Engineered a custom streaming platform using WordPress, JavaScript, CSS, HTML, Cloudflare, WPEngine, web APIs, and embedded video and meeting APIs including Whereby.</li>
                   <li>Supported more than 2,000 celebrity-led livestreams and managed technical specifications, talent booking, and coordination with crews and stakeholders.</li>
-                  <li>Repurposed the virtual infrastructure into InviteMeNow, a branded registration platform for in-person, virtual, and hybrid client-facing hospitality experiences that reduced reliance on external event SaaS tools.</li>
+                  <li>Repurposed the virtual-event infrastructure into InviteMeNow, a registration platform for in-person, virtual, and hybrid client-facing hospitality experiences.</li>
+                  <li>Built InviteMeNow as a customizable alternative to external event SaaS subscriptions such as Splash, with branded pages, custom URLs, maps, speaker information, and API-driven launch flows.</li>
                 </ul>
               </div>
               <div className="resume-role">

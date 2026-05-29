@@ -84,7 +84,6 @@
 }
 
 .featured-media {
-  position: relative;
   align-self: center;
 }
 
@@ -113,14 +112,18 @@
   display: none;
 }
 
+.gallery-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 14px;
+}
+
 .gallery-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 1;
   width: 48px;
   height: 48px;
   border: 1px solid #111;
-  background: rgba(255, 255, 255, 0.92);
+  background: #fff;
   color: #111;
   display: inline-flex;
   align-items: center;
@@ -128,21 +131,12 @@
   font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
-  transform: translateY(-50%);
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .gallery-arrow:hover {
   background: #111;
   color: #fff;
-}
-
-.gallery-arrow-prev {
-  left: 16px;
-}
-
-.gallery-arrow-next {
-  right: 16px;
 }
 
 .case-study-section {
@@ -285,17 +279,13 @@
     width: 100%;
   }
 
+  .gallery-controls {
+    justify-content: center;
+  }
+
   .gallery-arrow {
     width: 42px;
     height: 42px;
-  }
-
-  .gallery-arrow-prev {
-    left: 12px;
-  }
-
-  .gallery-arrow-next {
-    right: 12px;
   }
 
   .featured-shot {

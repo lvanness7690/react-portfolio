@@ -81,8 +81,26 @@
   padding: 24px;
 }
 
+.hero-card-media {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
+}
+
 .hero-card .headshot {
-  margin-bottom: 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-card > div,
+.hero-card dl {
+  width: 100%;
+}
+
+.hero-card > div {
+  margin-top: 24px;
 }
 
 .hero-card strong,
@@ -182,5 +200,9 @@
   .headshot {
     max-height: 180px;
     max-width: 180px;
+  }
+
+  .hero-card-media {
+    min-height: auto;
   }
 }
