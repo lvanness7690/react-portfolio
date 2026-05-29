@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: "Study Sphere",
-    description: "StudySphere is a dynamic, interactive student social network designed to revolutionize the way students connect and study together online. By integrating real-time video study groups and interactive discussion boards, StudySphere offers a unique platform for academic collaboration and peer support. It's not just about studying alone; it's about creating a community of learners who can grow together.",
+    description: "StudySphere is a collaborative student study platform designed to help learners connect and work together online. By integrating real-time video study groups and interactive discussion boards, StudySphere supports academic collaboration, accountability, and peer support in one shared environment.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Study-Sphere.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/study-sphere",
     liveUrl: "https://study-sphere.net"
