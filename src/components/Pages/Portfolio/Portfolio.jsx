@@ -49,6 +49,13 @@ function Portfolio() {
         'Google Forms, Sheets, and Apps Script tracker supporting a recurring three-year event series spanning roughly 60 events, 600 shipped bins, and 12,000 to 24,000 tracked items.',
       caseStudyUrl: '/case-studies/inventory-logistics-tracker.html',
     },
+    {
+      title: 'Zincstream & InviteMeNow Platform',
+      category: 'Streaming / registration / client delivery',
+      description:
+        'A proprietary streaming platform repurposed into a branded registration system for in-person, virtual, and hybrid client experiences with custom event pages, galleries, maps, and support flows.',
+      caseStudyUrl: '/case-studies/zincstream-invitemenow-platform.html',
+    },
   ];
 
   return (
