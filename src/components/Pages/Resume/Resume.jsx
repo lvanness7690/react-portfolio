@@ -110,7 +110,7 @@ function Resume() {
                 <p>Elevate Experiences</p>
                 <p>2024 - Present | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Built and manage the Elevate Dashboard, an internal operations platform that centralizes event planning, ticketing workflows, user administration, vendor and chef coordination, and production management in one shared system for premium hospitality and corporate client experiences.</li>
+                  <li>Built and manage the Elevate Dashboard, an internal operations platform that centralizes event planning, ticketing workflows, user administration, vendor and talent coordination, and production management in one shared system for premium hospitality and corporate client experiences.</li>
                   <li>Serve as the team&apos;s AI and workflow implementation lead, identifying new tools, piloting practical use cases, and helping colleagues apply AI systems to real business workflows.</li>
                   <li>Oversee the technical production layer for roughly 25 virtual events annually and 5-10 private concerts and large-format live experiences each year, coordinating production teams, clients, venues, and stakeholders to deliver high-touch corporate hospitality programs.</li>
                   <li>Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch iteration across a modular experience library, case studies, testimonials, and inquiry flows for a premium hospitality and corporate client business.</li>
