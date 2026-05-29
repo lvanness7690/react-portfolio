@@ -6,6 +6,9 @@ import {
   FaGithub,
   FaGlobe,
   FaLinkedinIn,
+  FaRobot,
+  FaScrewdriverWrench,
+  FaChartLine,
 } from 'react-icons/fa6';
 import './about.css';
 import headshot from '../../../assets/Headshot.png';
@@ -105,14 +108,23 @@ function About() {
 
       <section className="about-highlights">
         <div>
+          <span className="highlight-icon" aria-hidden="true">
+            <FaScrewdriverWrench />
+          </span>
           <h3>Internal Tools</h3>
           <p>Built systems for planning, ticket workflows, user administration, exports, QA, production operations, and cross-team execution.</p>
         </div>
         <div>
+          <span className="highlight-icon" aria-hidden="true">
+            <FaRobot />
+          </span>
           <h3>AI Workflows</h3>
           <p>Implemented practical Claude/OpenAI-assisted research, prospect-list creation, ZoomInfo enrichment, and Outreach workflows.</p>
         </div>
         <div>
+          <span className="highlight-icon" aria-hidden="true">
+            <FaChartLine />
+          </span>
           <h3>Customer-Facing Ops</h3>
           <p>Own website operations, analytics, CRM integration support, and technical execution across premium hospitality and corporate client delivery.</p>
         </div>

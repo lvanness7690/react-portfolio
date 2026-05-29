@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import {
   FaArrowUpRightFromSquare,
-  FaChevronLeft,
-  FaChevronRight,
   FaFileLines,
   FaGithub,
 } from 'react-icons/fa6';
@@ -113,21 +111,21 @@ function Portfolio() {
           <div className="gallery-controls" aria-label="Crew Control gallery controls">
             <button
               type="button"
-            className="gallery-arrow"
-            aria-label="Previous Crew Control screenshot"
-            onClick={() => scrollFeaturedGallery(-1)}
-          >
-            <FaChevronLeft aria-hidden="true" />
-          </button>
-          <button
-            type="button"
-            className="gallery-arrow"
-            aria-label="Next Crew Control screenshot"
-            onClick={() => scrollFeaturedGallery(1)}
-          >
-            <FaChevronRight aria-hidden="true" />
-          </button>
-        </div>
+              className="gallery-arrow"
+              aria-label="Previous Crew Control screenshot"
+              onClick={() => scrollFeaturedGallery(-1)}
+            >
+              <span className="gallery-arrow-glyph" aria-hidden="true">&larr;</span>
+            </button>
+            <button
+              type="button"
+              className="gallery-arrow"
+              aria-label="Next Crew Control screenshot"
+              onClick={() => scrollFeaturedGallery(1)}
+            >
+              <span className="gallery-arrow-glyph" aria-hidden="true">&rarr;</span>
+            </button>
+          </div>
         </div>
       </section>
 

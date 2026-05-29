@@ -134,6 +134,13 @@
   transition: background 0.2s ease, color 0.2s ease;
 }
 
+.gallery-arrow-glyph {
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .gallery-arrow:hover {
   background: #111;
   color: #fff;
