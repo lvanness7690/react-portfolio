@@ -7,7 +7,7 @@ function Header() {
     <header>
       <Link className="site-mark" to="/">
         <span>Leighton Van Ness</span>
-        <small>AI Workflow &amp; Technical Operations</small>
+        <small>Implementation, AI Workflow &amp; Customer-Facing Systems</small>
       </Link>
       <nav>
         <ul>
