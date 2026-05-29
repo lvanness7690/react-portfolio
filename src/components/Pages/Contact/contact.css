@@ -1,43 +1,69 @@
 .contact {
-  margin: 0 auto;
-  max-width: 880px;
-  padding: 96px 24px 120px;
-  text-align: center;
+  padding: 20px;
+  text-align: center; /* This should center all text inside the .contact div, including "Contact Me" */
 }
 
 .contact h2 {
-  font-size: clamp(2.1rem, 5vw, 4.2rem);
-  letter-spacing: 0;
-  line-height: 1;
-  margin: 0 auto 18px;
+  /* Explicitly center the heading to override any other styles if necessary */
   text-align: center;
 }
 
 .contact p {
-  color: #333;
-  font-size: 1.05rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 720px;
+  /* Explicitly center the heading to override any other styles if necessary */
   text-align: center;
 }
 
-.contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  margin-top: 28px;
+.contact .whereby-video {
+  margin-bottom: 20px; /* Add space below the Whereby video */
 }
 
-.contact-links a {
-  border: 1px solid #111;
-  color: #111;
-  font-weight: 700;
-  padding: 10px 14px;
+.contact form {
+  width: 100%; /* Ensure the form takes the full width of its parent */
+  max-width: 800px; /* Set a max-width if you want to limit how wide the form can get */
+  margin: auto; /* This will center the form in the page */
 }
 
-.contact-links a:hover {
-  background: #111;
-  color: #fff;
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%; /* Set the width to 50% of their parent, which is the form */
+  max-width: 1000px; /* Ensures they don't become too wide on larger screens */
+  margin: 10px auto; /* Centers the inputs */
+  padding: 10px; /* Padding for larger click area */
+  font-size: 1rem; /* Standard paragraph font size */
+  color: black; /* Black text inside the input */
+  background-color: white; /* White background for input */
+  border: 1px solid #ccc; /* Subtle border */
+}
+
+.contact textarea {
+  height: auto; /* Height will grow with content */
+  min-height: 60px; /* Minimum height to start larger than inputs */
+}
+
+.contact button {
+  background-color: blue; /* Button background color */
+  color: white; /* Button text color */
+  width: 50%; /* Match input widths */
+  max-width: 400px; /* Match max input widths */
+  padding: 12px 20px; /* Padding for a larger button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  margin: 20px auto; /* Center button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.contact button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Update media query for responsiveness */
+@media (max-width: 800px) {
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea,
+  .contact button {
+    width: 90%; /* Inputs and button take more width on smaller screens */
+    max-width: none; /* Remove max-width restriction */
+  }
 }
