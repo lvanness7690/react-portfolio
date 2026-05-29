@@ -1,27 +1,75 @@
-/* src/components/Header/header.css */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    position: fixed; 
-    top: 0;          
-    left: 0;         
-    width: 100%;     
-    z-index: 1000;   
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #111;
+  color: #111;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 18px 40px;
+  position: sticky;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.site-mark {
+  color: #111;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+}
+
+.site-mark span {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.site-mark small {
+  color: #555;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 header nav ul {
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  gap: 6px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline-flex;
 }
 
 header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #111;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background: #111;
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 18px 22px;
+  }
+
+  header nav ul {
+    flex-wrap: wrap;
+  }
 }

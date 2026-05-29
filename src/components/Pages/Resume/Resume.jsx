@@ -6,11 +6,12 @@ function Resume() {
   return (
     <div className="resume">
       <div className="summary-statement">
-        <h2 className='page-header'>AI WORKFLOW & TECHNICAL OPERATIONS</h2>
+        <p className="eyebrow resume-eyebrow">Resume</p>
+        <h2 className='page-header'>AI Workflow &amp; Technical Operations</h2>
         <p>Customer-facing systems builder with experience across internal tools, AI workflow adoption, implementation-heavy operations, GTM systems, and client delivery. I bring a builder-operator mindset shaped by real production work in hospitality, corporate client experiences, and modern web systems.</p>
-         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button">
-      Download Resume
-    </a>
+        <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button">
+          Download Resume
+        </a>
       </div>
       
       <div className="columns">
