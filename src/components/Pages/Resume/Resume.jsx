@@ -86,13 +86,15 @@ function Resume() {
                   <li>Built and manage the Elevate Dashboard, an internal operations platform centralizing event planning, ticketing workflows, user administration, vendor and chef coordination, and production management for premium hospitality and corporate client experiences.</li>
                   <li>Serve as the team&apos;s AI and workflow implementation lead, piloting practical use cases and helping colleagues apply AI systems to research, prospecting, internal automation, and day-to-day execution.</li>
                   <li>Oversee the technical production layer for roughly 25 virtual events annually and 5 to 10 private concerts and large-format live experiences each year, coordinating production teams, clients, venues, and stakeholders.</li>
-                  <li>Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch improvements.</li>
-                  <li>Manage website operations post-launch, including content updates, SEO hygiene, Google Analytics, and Salesforce, HubSpot, and related integration workflows tied to client engagement and demand generation.</li>
+                  <li>Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch iteration across a modular experience library, case studies, testimonials, and inquiry flows.</li>
+                  <li>Manage website operations post-launch, including content updates, SEO hygiene, Google Analytics, HubSpot form workflows, Salesforce campaign tracking, and related GTM integrations tied to client engagement and demand generation.</li>
                   <li>Developed the platform using React, serverless Node.js API routes on Vercel, Redis/Upstash, Google Sheets API workflows, GitHub CI/CD, and production-readiness testing.</li>
                   <li>Implemented auth, users, invites, roles, permissions, event and ticket data models, admin tooling, and production safety workflows.</li>
                   <li>Added PDF and Word exports, regression coverage, build checks, Playwright smoke tests, deployment verification, weekly audit workflows, and release reporting.</li>
                   <li>Built AI-assisted prospecting workflows using Claude, ZoomInfo, and Outreach to research companies, create targeted prospect lists, enrich lead data, and support outbound email marketing campaigns.</li>
+                  <li>Manage email marketing and lead-generation operations, connecting sales, research, and campaign workflows so the team can move from prospect discovery to Outreach execution more efficiently.</li>
                   <li>Built and automated an inventory and logistics tracker with Google Forms, Google Sheets, and Apps Script to manage a recurring three-year event series spanning roughly 60 events, 600 shipped bins, and about 12,000 to 24,000 tracked items.</li>
+                  <li>Designed the tracker around a unified data model for event intake, schedule mapping, shipment status, replacement logs, and dashboard reporting; automated recap emails, low-inventory alerts, damaged-item replacement workflows, and recovery flows.</li>
                 </ul>
               </div>
               <div className="resume-role">
@@ -101,7 +103,7 @@ function Resume() {
                 <p>2020 - 2024 | New York, NY</p>
                 <ul className="work-experience-item">
                   <li>Led the company&apos;s pivot to virtual programming during COVID, building the technical platform that preserved delivery for corporate hospitality clients while in-person events were shut down.</li>
-                  <li>Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows and operating structure still used daily across Zinc Agency and Elevate Experiences.</li>
+                  <li>Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows, forms, automations, and Salesforce-connected operating structure still used daily across Zinc Agency and Elevate Experiences.</li>
                   <li>Engineered a custom streaming platform using WordPress, JavaScript, CSS, HTML, Cloudflare, WPEngine, web APIs, and embedded video and meeting APIs including Whereby.</li>
                   <li>Supported more than 2,000 celebrity-led livestreams and managed technical specifications, talent booking, and coordination with crews and stakeholders.</li>
                   <li>Repurposed the virtual-event infrastructure into InviteMeNow, a registration platform for in-person, virtual, and hybrid client-facing hospitality experiences.</li>
