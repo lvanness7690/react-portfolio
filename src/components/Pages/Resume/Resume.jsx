@@ -30,14 +30,20 @@ function Resume() {
             <h2>EDUCATION</h2>
             <div className="panel-scroll panel-scroll-compact">
               <div className="resume-stack">
-                <p>CU Boulder</p>
-                <p>M.S. Computer Science, Estimated Completion 2026</p>
-                <p>New York University</p>
-                <p>Management</p>
-                <p>2011 - 2013 | New York, NY</p>
-                <p>University of St. Andrews</p>
-                <p>Economics</p>
-                <p>2009 - 2011 | St. Andrews, Scotland, UK</p>
+                <div className="resume-entry">
+                  <p className="resume-entry-title">CU Boulder</p>
+                  <p className="resume-entry-detail">M.S. Computer Science, Estimated Completion 2026</p>
+                </div>
+                <div className="resume-entry">
+                  <p className="resume-entry-title">New York University</p>
+                  <p className="resume-entry-detail">Management</p>
+                  <p className="resume-entry-meta">2011 - 2013 | New York, NY</p>
+                </div>
+                <div className="resume-entry">
+                  <p className="resume-entry-title">University of St. Andrews</p>
+                  <p className="resume-entry-detail">Economics</p>
+                  <p className="resume-entry-meta">2009 - 2011 | St. Andrews, Scotland, UK</p>
+                </div>
               </div>
             </div>
           </section>
@@ -46,10 +52,14 @@ function Resume() {
             <h2>CERTIFICATIONS</h2>
             <div className="panel-scroll panel-scroll-compact">
               <div className="resume-stack">
-                <p>Columbia Engineering Coding Boot Camp Professional Certificate</p>
-                <p>October 2023 - March 2024</p>
-                <p>IBM Full Stack Software Developer Professional Certificate</p>
-                <p>May 2023 - September 2023</p>
+                <div className="resume-entry">
+                  <p className="resume-entry-title">Columbia Engineering Coding Boot Camp Professional Certificate</p>
+                  <p className="resume-entry-meta">October 2023 - March 2024</p>
+                </div>
+                <div className="resume-entry">
+                  <p className="resume-entry-title">IBM Full Stack Software Developer Professional Certificate</p>
+                  <p className="resume-entry-meta">May 2023 - September 2023</p>
+                </div>
               </div>
             </div>
           </section>
