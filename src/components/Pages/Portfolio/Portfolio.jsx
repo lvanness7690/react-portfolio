@@ -37,6 +37,46 @@ function Portfolio() {
         </div>
       </section>
 
+      <section className="case-study-section">
+        <div className="case-study-header">
+          <p className="featured-label">Selected Case Studies</p>
+          <h3>Systems Built for Real-World Operations</h3>
+          <p>
+            Beyond product prototypes and software projects, I have built internal systems that
+            supported recurring client programs, large-scale logistics, and event operations in live
+            business environments.
+          </p>
+        </div>
+        <div className="case-study-grid">
+          <article className="case-study-card">
+            <h4>Inventory & Logistics Tracker</h4>
+            <p>
+              Built an automated tracking system with Google Forms, Google Sheets, and Apps Script
+              for a recurring three-year event series spanning roughly 60 events, 600 shipped bins,
+              and about 12,000 to 24,000 tracked items.
+            </p>
+            <p>
+              The workflow handled event intake, shipment status, replacement logs, inventory alerts,
+              damaged-item notifications, and automated recap reporting so the team could operate with
+              more visibility and fewer manual handoffs.
+            </p>
+          </article>
+          <article className="case-study-card">
+            <h4>InviteMeNow Platform</h4>
+            <p>
+              Helped build Zinc Agency&apos;s virtual-event infrastructure and later repurposed it into
+              InviteMeNow, a branded registration platform for in-person, virtual, and hybrid client
+              programs.
+            </p>
+            <p>
+              The platform reduced reliance on external event SaaS tools, supported custom client
+              wrappers, and used API-based integrations to deliver a more flexible registration and
+              streaming experience across changing event formats.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <p className="portfolio-description">Additional projects below. Hover over an image to view the GitHub repo and live application when available.</p>
       <div className="projects">
         {projectsData.map((project, index) => (
