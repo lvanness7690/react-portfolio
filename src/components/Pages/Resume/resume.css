@@ -75,7 +75,6 @@
   min-height: 100%;
 }
 
-.skills-list,
 .work-experience-item {
   list-style-type: disc;
   padding-left: 22px;
@@ -150,6 +149,37 @@
 .resume-entry-meta {
   color: #666;
   font-size: 0.88rem;
+  margin-bottom: 0;
+}
+
+.skills-groups {
+  display: grid;
+  gap: 14px;
+}
+
+.skill-group {
+  border-top: 1px solid #e4e4e4;
+  padding-top: 14px;
+}
+
+.skill-group:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.skill-group-label {
+  color: #111;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.skill-group-copy {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.55;
   margin-bottom: 0;
 }
 

@@ -67,22 +67,36 @@ function Resume() {
           <section className="resume-panel">
             <h2>SKILLS</h2>
             <div className="panel-scroll">
-              <ul className="skills-list">
-                <li>JavaScript / TypeScript</li>
-                <li>React / CRA / Vite</li>
-                <li>Node.js / Express.js / serverless routes</li>
-                <li>REST APIs / GraphQL / Apollo</li>
-                <li>HTML / CSS / JavaScript</li>
-                <li>Redis / Upstash / Vercel KV / Convex</li>
-                <li>MongoDB / Mongoose / MySQL / Sequelize</li>
-                <li>Google Sheets API / Apps Script / Google Forms</li>
-                <li>GitHub / CI-CD / Vercel / preview deploys</li>
-                <li>Playwright / Jest / build checks</li>
-                <li>Salesforce / HubSpot / Zapier</li>
-                <li>ZoomInfo / Outreach / SEO / Google Analytics</li>
-                <li>Claude / OpenAI / Codex / OpenClaw</li>
-                <li>WordPress / WPEngine / Cloudflare / Whereby APIs</li>
-              </ul>
+              <div className="skills-groups">
+                <div className="skill-group">
+                  <p className="skill-group-label">Languages &amp; Frontend</p>
+                  <p className="skill-group-copy">JavaScript, TypeScript, React, CRA, Vite, HTML, CSS, Bootstrap, Material UI, Bulma, Materialize, jQuery</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">Backend &amp; APIs</p>
+                  <p className="skill-group-copy">Node.js, Express.js, serverless API routes, REST APIs, GraphQL, Apollo Server, JWT, bcrypt, express-session, cookies</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">Data &amp; Persistence</p>
+                  <p className="skill-group-copy">Redis, Upstash, Vercel KV, Convex, MongoDB, Mongoose, MySQL, Sequelize, IndexedDB, Google Sheets API</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">DevOps, Analytics &amp; GTM</p>
+                  <p className="skill-group-copy">Vercel, Netlify, GitHub, CI/CD, preview deploys, production deploys, WPEngine, Cloudflare, Google Analytics, SEO, Salesforce, HubSpot, Zapier</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">Testing &amp; Automation</p>
+                  <p className="skill-group-copy">Playwright, Jest, unit tests, build checks, visual smoke tests, Apps Script, Google Forms, Google Sheets, Inquirer CLI tools</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">AI Platforms &amp; Workflows</p>
+                  <p className="skill-group-copy">Claude, OpenAI/ChatGPT, Codex, OpenClaw, prompt/workflow design, AI-assisted development, AI research automation, prospect-list generation</p>
+                </div>
+                <div className="skill-group">
+                  <p className="skill-group-label">Product &amp; GTM Systems</p>
+                  <p className="skill-group-copy">ZoomInfo enrichment, Outreach campaigns, auth, role-based permissions, invite lifecycle controls, PDF/Word exports</p>
+                </div>
+              </div>
             </div>
           </section>
         </div>
