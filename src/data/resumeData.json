@@ -1,0 +1,114 @@
+{
+  "name": "Leighton Van Ness",
+  "headline": "Implementation, AI Workflow & Customer-Facing Systems Lead",
+  "summary": "Implementation, AI workflow, and customer-facing systems lead focused on building and improving the workflows teams rely on to serve customers, run operations, and grow revenue. I build internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled processes that help non-technical teams work faster and with more structure. Known for translating between stakeholders, client needs, and technical systems across hospitality and corporate-client delivery, I combine hands-on building with implementation depth, operational judgment, and practical AI adoption.",
+  "skills": [
+    {
+      "label": "Languages & Frontend",
+      "items": "JavaScript, TypeScript, React, CRA, Vite, HTML, CSS, Bootstrap, Material UI, Bulma, Materialize, jQuery"
+    },
+    {
+      "label": "Backend & APIs",
+      "items": "Node.js, Express.js, serverless API routes, REST APIs, GraphQL, Apollo Server, JWT, bcrypt, express-session, cookies"
+    },
+    {
+      "label": "Data & Persistence",
+      "items": "Redis, Upstash, Vercel KV, Convex, MongoDB, Mongoose, MySQL, Sequelize, IndexedDB, Google Sheets API"
+    },
+    {
+      "label": "DevOps, Analytics & GTM",
+      "items": "Vercel, Netlify, GitHub, CI/CD, preview deploys, production deploys, WPEngine, Cloudflare, Google Analytics, SEO, Salesforce, HubSpot, Zapier"
+    },
+    {
+      "label": "Testing & Automation",
+      "items": "Playwright, Jest, unit tests, build checks, visual smoke tests, Apps Script, Google Forms, Google Sheets, Inquirer CLI tools"
+    },
+    {
+      "label": "AI Platforms & Workflows",
+      "items": "Claude, OpenAI/ChatGPT, Codex, OpenClaw, prompt/workflow design, AI-assisted development, AI research automation, prospect-list generation"
+    },
+    {
+      "label": "Product & GTM Systems",
+      "items": "ZoomInfo enrichment, Outreach campaigns, auth, role-based permissions, invite lifecycle controls, PDF/Word exports"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Elevate Experiences",
+      "role": "VP, Innovation",
+      "meta": "New York, NY | 2024 - Present",
+      "bullets": [
+        "Built and manage the Elevate Dashboard, an internal operations platform that centralizes event planning, ticketing workflows, user administration, vendor and talent coordination, and production management in one shared system for premium hospitality and corporate client experiences.",
+        "Developed the Elevate Dashboard using React (CRA), serverless Node.js API routes on Vercel, Redis/Upstash shared data, Google Sheets API workflows, GitHub CI/CD, pull requests, preview deployments, and production auto-deploys.",
+        "Implemented auth, users, invites, roles, permissions, event/ticket data models, admin tooling, local-vs-shared read-only guards, and production safety workflows inside the Elevate Dashboard.",
+        "Added PDF/Word exports, event/ticket enhancements, regression coverage, build checks, Playwright smoke tests, deployment verification, weekly audit/patch workflows, and release reporting for the Elevate Dashboard.",
+        "Serve as the team's AI and workflow implementation lead, identifying new tools, piloting practical use cases, and helping colleagues apply AI systems to real business workflows.",
+        "Oversee the technical production layer for roughly 25 virtual events annually and 5-10 private concerts and large-format live experiences each year, coordinating production teams, clients, venues, and stakeholders to deliver high-touch corporate hospitality programs.",
+        "Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch iteration across a modular experience library, case studies, testimonials, and inquiry flows for a premium hospitality and corporate client business.",
+        "Manage the Elevate Experiences website post-launch, adding new content weekly, maintaining SEO hygiene, monitoring Google Analytics, and supporting HubSpot form workflows, Salesforce campaign tracking, and related GTM integrations tied to client engagement and demand generation.",
+        "Built AI-assisted prospecting workflows using Claude, ZoomInfo, and Outreach to research companies, create targeted prospect lists, enrich lead data, and support outbound email marketing campaigns.",
+        "Manage email marketing and lead-generation operations, connecting sales, research, and campaign workflows so the team can move from prospect discovery to Outreach execution more efficiently.",
+        "Built and automated an inventory and logistics tracker with Google Forms, Google Sheets, and Apps Script to manage a recurring 3-year event series spanning roughly 60 events, 600 shipped bins, and about 12,000-24,000 tracked items.",
+        "Designed the tracker around a unified data model for event intake, schedule mapping, shipment status, replacement logs, and dashboard reporting; automated recap emails, submission-status syncing, low-inventory alerts, damaged-item replacement workflows, destination routing, and safe resend/delete-cascade recovery flows."
+      ]
+    },
+    {
+      "company": "Zinc Agency",
+      "role": "VP, Innovation & Technology",
+      "meta": "New York, NY | 2020 - 2024",
+      "bullets": [
+        "Led the company's pivot to virtual programming during COVID, building the technical platform that helped preserve the business, expand virtual event offerings, and support continued delivery for corporate hospitality clients when in-person events were shut down.",
+        "Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows, forms, automations, and Salesforce-connected operating structure that the team still uses daily across Zinc Agency and Elevate Experiences.",
+        "Engineered a custom streaming platform using WordPress, JavaScript, CSS, HTML, web APIs, embedded video/meeting APIs including Whereby, branded event pages, embedded launch flows, and reusable registration workflows.",
+        "Supported more than 2,000 celebrity-led livestreams and managed technical specifications, talent booking, and coordination with on-site crews and stakeholders.",
+        "When events returned in person, repurposed the streaming and registration infrastructure instead of abandoning it, evolving the platform into InviteMeNow for in-person, virtual, and hybrid event registration management.",
+        "Converted the virtual-event infrastructure into the in-person registration management platform now used for client-facing event experiences, improving how the team delivered branded programs across formats.",
+        "Built InviteMeNow as a customizable alternative to expensive event SaaS subscriptions such as Splash, with branded pages, custom URLs/subdomains, rich content, maps, directions, speaker information, API-driven launch flows, and client-facing hospitality experiences delivered through a custom wrapper."
+      ]
+    },
+    {
+      "company": "Zinc Agency",
+      "role": "Director of Products",
+      "meta": "New York, NY | 2018 - 2020",
+      "bullets": [
+        "Led budget creation, experience pricing, product packaging, and sales strategy for premium entertainment and experiential offerings.",
+        "Drafted and signed contracts, managed legal agreements, and coordinated talent, venue, and corporate-client requirements.",
+        "Coordinated critical operations, including talent negotiations and mediation between artists, representatives, and event stakeholders."
+      ]
+    },
+    {
+      "company": "Creative Artists Agency",
+      "role": "Account Executive",
+      "meta": "New York, NY | 2014 - 2018",
+      "bullets": [
+        "Developed experiential concepts using CAA-represented talent for corporate buyers and premium client programs.",
+        "Managed logistics for sold events, including talent booking, agency coordination, venue planning, transportation, concierge-style details, and client communication.",
+        "Built client relationship and cold outreach skills while managing high-expectation entertainment and brand partnerships."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "CU Boulder",
+      "detail": "M.S. Computer Science, Estimated Completion 2026"
+    },
+    {
+      "institution": "New York University",
+      "detail": "Management, 2011 - 2013"
+    },
+    {
+      "institution": "University of St. Andrews",
+      "detail": "Economics, 2009 - 2011"
+    }
+  ],
+  "certifications": [
+    {
+      "institution": "Columbia Engineering Coding Boot Camp Professional Certificate",
+      "detail": "2024"
+    },
+    {
+      "institution": "IBM Full Stack Software Developer Professional Certificate",
+      "detail": "2023"
+    }
+  ]
+}
