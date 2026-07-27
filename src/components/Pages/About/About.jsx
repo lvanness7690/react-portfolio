@@ -12,7 +12,6 @@ import {
 } from 'react-icons/fa6';
 import './about.css';
 import headshot from '../../../assets/Headshot.png';
-import resumeData from '../../../data/resumeData.json';
 
 function About() {
   return (
@@ -21,7 +20,15 @@ function About() {
         <div className="about-copy">
           <p className="eyebrow">Implementation, AI workflow, and customer-facing systems</p>
           <h2>I build customer-facing systems, AI workflows, and internal tools that help teams deliver.</h2>
-          <p>{resumeData.summary}</p>
+          <p>
+            Implementation, AI workflow, and customer-facing systems lead focused on building and improving
+            the workflows teams rely on to serve customers, run operations, and grow revenue. I build
+            internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled
+            processes that help non-technical teams work faster and with more structure. Known for
+            translating between stakeholders, client needs, and technical systems across hospitality and
+            corporate-client delivery, I combine hands-on building with implementation depth, operational
+            judgment, and practical AI adoption.
+          </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
               <FaArrowRightLong aria-hidden="true" />
