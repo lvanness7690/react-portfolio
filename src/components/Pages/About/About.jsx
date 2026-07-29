@@ -18,16 +18,14 @@ function About() {
     <div className="about-page">
       <section className="about-hero">
         <div className="about-copy">
-          <p className="eyebrow">Implementation, AI workflow, and customer-facing systems</p>
-          <h2>I build customer-facing systems, AI workflows, and internal tools that help teams deliver.</h2>
+          <p className="eyebrow">AI operations, implementation, and customer-facing systems</p>
+          <h2>I build AI-enabled workflows, internal tools, and customer-facing systems that help teams operate and grow.</h2>
           <p>
-            Implementation, AI workflow, and customer-facing systems lead focused on building and improving
-            the workflows teams rely on to serve customers, run operations, and grow revenue. I build
-            internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled
-            processes that help non-technical teams work faster and with more structure. Known for
-            translating between stakeholders, client needs, and technical systems across hospitality and
-            corporate-client delivery, I combine hands-on building with implementation depth, operational
-            judgment, and practical AI adoption.
+            AI operations, implementation, and customer-facing systems leader who builds internal tools,
+            operational platforms, GTM workflows, and AI-enabled processes. Translate business needs into
+            practical systems spanning product operations, workflow automation, client delivery, and revenue
+            operations. Bring hands-on technical fluency across APIs, modern web platforms, CRM systems,
+            analytics, and deployment workflows.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
@@ -88,11 +86,11 @@ function About() {
           <dl>
             <div>
               <dt>Current focus</dt>
-              <dd>AI adoption, customer-facing systems, GTM workflows</dd>
+              <dd>AI operations, customer-facing systems, GTM workflows</dd>
             </div>
             <div>
               <dt>Target roles</dt>
-              <dd>Customer success, implementation, technical account, product ops</dd>
+              <dd>AI operations, implementation, technical operations, product ops</dd>
             </div>
           </dl>
         </aside>
@@ -111,7 +109,7 @@ function About() {
             <FaRobot />
           </span>
           <h3>AI Workflows</h3>
-          <p>Implemented practical Claude/OpenAI-assisted research, prospect-list creation, ZoomInfo enrichment, and Outreach workflows.</p>
+          <p>Build AI agents and API-connected workflows for research, prospecting, qualification, automation, and targeted outbound execution.</p>
         </div>
         <div>
           <span className="highlight-icon" aria-hidden="true">
@@ -130,8 +128,8 @@ function About() {
           hands-on building, systems thinking, implementation depth, and customer or internal workflow insight.
         </p>
         <ul>
-          <li>Customer success, technical account, and implementation roles</li>
-          <li>AI operations, workflow operations, and support-heavy systems roles</li>
+          <li>Implementation, solutions, and technical operations roles</li>
+          <li>AI operations, workflow operations, and AI-enabled systems roles</li>
           <li>Product operations, business operations, and internal tools</li>
           <li>GTM systems, automation, and revenue or marketing operations</li>
         </ul>

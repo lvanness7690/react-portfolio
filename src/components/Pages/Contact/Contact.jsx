@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contact">
       <p className="eyebrow">Contact</p>
-      <h2>Let's talk about AI workflow, internal tools, or technical operations roles.</h2>
+      <h2>Let's talk about AI operations, implementation, internal tools, or technical systems roles.</h2>
       <p>
         I am open to AI operations, technical operations, GTM systems, internal tools,
         solutions, product operations, and engineering-adjacent roles.

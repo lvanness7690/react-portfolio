@@ -8,15 +8,13 @@ function Resume() {
     <div className="resume">
       <div className="summary-statement">
         <p className="eyebrow resume-eyebrow">Resume</p>
-        <h2 className='page-header'>Implementation, AI Workflow &amp; Customer-Facing Systems Lead</h2>
+        <h2 className='page-header'>AI Operations, Implementation &amp; Customer-Facing Systems Lead</h2>
         <p>
-          Implementation, AI workflow, and customer-facing systems lead focused on building and improving
-          the workflows teams rely on to serve customers, run operations, and grow revenue. I build
-          internal tools, registration platforms, website and CRM workflows, GTM systems, and AI-enabled
-          processes that help non-technical teams work faster and with more structure. Known for
-          translating between stakeholders, client needs, and technical systems across hospitality and
-          corporate-client delivery, I combine hands-on building with implementation depth, operational
-          judgment, and practical AI adoption.
+          AI operations, implementation, and customer-facing systems leader who builds internal tools,
+          operational platforms, GTM workflows, and AI-enabled processes. Translate business needs into
+          practical systems spanning product operations, workflow automation, client delivery, and revenue
+          operations. Bring hands-on technical fluency across APIs, modern web platforms, CRM systems,
+          analytics, and deployment workflows.
         </p>
         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button icon-button-link">
           <FaFileArrowDown aria-hidden="true" />
@@ -69,32 +67,20 @@ function Resume() {
             <div className="panel-scroll">
               <div className="skills-groups">
                 <div className="skill-group">
-                  <p className="skill-group-label">Languages &amp; Frontend</p>
-                  <p className="skill-group-copy">JavaScript, TypeScript, React, CRA, Vite, HTML, CSS, Bootstrap, Material UI, Bulma, Materialize, jQuery</p>
+                  <p className="skill-group-label">AI &amp; Automation</p>
+                  <p className="skill-group-copy">AI tools, prospecting agents, prompt/workflow design, research automation, API integrations, Apps Script, Zapier</p>
                 </div>
                 <div className="skill-group">
-                  <p className="skill-group-label">Backend &amp; APIs</p>
-                  <p className="skill-group-copy">Node.js, Express.js, serverless API routes, REST APIs, GraphQL, Apollo Server, JWT, bcrypt, express-session, cookies</p>
+                  <p className="skill-group-label">Platforms &amp; GTM Systems</p>
+                  <p className="skill-group-copy">Salesforce, HubSpot, ZoomInfo, Outreach, Google Analytics, SEO, Google Sheets</p>
                 </div>
                 <div className="skill-group">
-                  <p className="skill-group-label">Data &amp; Persistence</p>
-                  <p className="skill-group-copy">Redis, Upstash, Vercel KV, Convex, MongoDB, Mongoose, MySQL, Sequelize, IndexedDB, Google Sheets API</p>
+                  <p className="skill-group-label">Product Engineering</p>
+                  <p className="skill-group-copy">JavaScript, TypeScript, React, Node.js, Express, REST APIs, GraphQL, Redis, MongoDB, MySQL</p>
                 </div>
                 <div className="skill-group">
-                  <p className="skill-group-label">DevOps, Analytics &amp; GTM</p>
-                  <p className="skill-group-copy">Vercel, Netlify, GitHub, CI/CD, preview deploys, production deploys, WPEngine, Cloudflare, Google Analytics, SEO, Salesforce, HubSpot, Zapier</p>
-                </div>
-                <div className="skill-group">
-                  <p className="skill-group-label">Testing &amp; Automation</p>
-                  <p className="skill-group-copy">Playwright, Jest, unit tests, build checks, visual smoke tests, Apps Script, Google Forms, Google Sheets, Inquirer CLI tools</p>
-                </div>
-                <div className="skill-group">
-                  <p className="skill-group-label">AI Platforms &amp; Workflows</p>
-                  <p className="skill-group-copy">Claude, OpenAI/ChatGPT, Codex, OpenClaw, prompt/workflow design, AI-assisted development, AI research automation, prospect-list generation</p>
-                </div>
-                <div className="skill-group">
-                  <p className="skill-group-label">Product &amp; GTM Systems</p>
-                  <p className="skill-group-copy">ZoomInfo enrichment, Outreach campaigns, auth, role-based permissions, invite lifecycle controls, PDF/Word exports</p>
+                  <p className="skill-group-label">Delivery &amp; Quality</p>
+                  <p className="skill-group-copy">Vercel, GitHub, CI/CD, Playwright, Jest, auth and permissions, deployment verification, PDF/Word exports</p>
                 </div>
               </div>
             </div>
@@ -110,18 +96,14 @@ function Resume() {
                 <p>Elevate Experiences</p>
                 <p>2024 - Present | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Built and manage the Elevate Dashboard, an internal operations platform that centralizes event planning, ticketing workflows, user administration, vendor and talent coordination, and production management in one shared system for premium hospitality and corporate client experiences.</li>
-                  <li>Developed the Elevate Dashboard using React (CRA), serverless Node.js API routes on Vercel, Redis/Upstash shared data, Google Sheets API workflows, GitHub CI/CD, pull requests, preview deployments, and production auto-deploys.</li>
-                  <li>Implemented auth, users, invites, roles, permissions, event/ticket data models, admin tooling, local-vs-shared read-only guards, and production safety workflows inside the Elevate Dashboard.</li>
-                  <li>Added PDF/Word exports, event/ticket enhancements, regression coverage, build checks, Playwright smoke tests, deployment verification, weekly audit/patch workflows, and release reporting for the Elevate Dashboard.</li>
-                  <li>Serve as the team&apos;s AI and workflow implementation lead, identifying new tools, piloting practical use cases, and helping colleagues apply AI systems to real business workflows.</li>
-                  <li>Oversee the technical production layer for roughly 25 virtual events annually and 5-10 private concerts and large-format live experiences each year, coordinating production teams, clients, venues, and stakeholders to deliver high-touch corporate hospitality programs.</li>
-                  <li>Oversaw launch of the new Elevate Experiences website, coordinating developers, design, copy, stakeholder review, QA, launch readiness, and post-launch iteration across a modular experience library, case studies, testimonials, and inquiry flows for a premium hospitality and corporate client business.</li>
-                  <li>Manage the Elevate Experiences website post-launch, adding new content weekly, maintaining SEO hygiene, monitoring Google Analytics, and supporting HubSpot form workflows, Salesforce campaign tracking, and related GTM integrations tied to client engagement and demand generation.</li>
-                  <li>Built an AI prospecting agent with API integrations that automatically identifies and qualifies prospects, manages sending infrastructure, and launches targeted outbound email campaigns; the system has already generated new leads.</li>
-                  <li>Manage email marketing and lead-generation operations, connecting sales, research, and campaign workflows so the team can move from prospect discovery to Outreach execution more efficiently.</li>
-                  <li>Built and automated an inventory and logistics tracker with Google Forms, Google Sheets, and Apps Script to manage a recurring 3-year event series spanning roughly 60 events, 600 shipped bins, and about 12,000-24,000 tracked items.</li>
-                  <li>Designed the tracker around a unified data model for event intake, schedule mapping, shipment status, replacement logs, and dashboard reporting; automated recap emails, submission-status syncing, low-inventory alerts, damaged-item replacement workflows, destination routing, and safe resend/delete-cascade recovery flows.</li>
+                  <li>Built and manage the Elevate Dashboard, a shared operations platform for event planning, ticketing, user administration, vendor and talent coordination, and production management.</li>
+                  <li>Developed the platform with React, serverless Node.js APIs, Redis/Upstash, Google Sheets integrations, and role-based access controls on Vercel.</li>
+                  <li>Established CI/CD, preview deployments, automated tests, production safeguards, PDF/Word exports, and recurring release verification.</li>
+                  <li>Lead AI and workflow implementation, evaluating tools, piloting practical use cases, and helping teams apply AI systems to operating workflows.</li>
+                  <li>Built an AI prospecting agent with API integrations that identifies and qualifies prospects, manages sending infrastructure, launches targeted outbound campaigns, and has generated new leads.</li>
+                  <li>Oversee technical production for approximately 25 virtual events annually and 5-10 private concerts and large-format live experiences.</li>
+                  <li>Led the Elevate Experiences website launch and now manage SEO, analytics, content, inquiry flows, and HubSpot- and Salesforce-connected GTM workflows.</li>
+                  <li>Built an automated logistics tracker supporting approximately 60 events, 600 shipped bins, and 12,000-24,000 items with status syncing, alerts, routing, and recovery workflows.</li>
                 </ul>
               </div>
               <div className="resume-role">
@@ -129,13 +111,11 @@ function Resume() {
                 <p>Zinc Agency</p>
                 <p>2020 - 2024 | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Led the company&apos;s pivot to virtual programming during COVID, building the technical platform that helped preserve the business, expand virtual event offerings, and support continued delivery for corporate hospitality clients when in-person events were shut down.</li>
-                  <li>Identified, implemented, and rolled out Hive as the core project management system for the division, building custom workflows, forms, automations, and Salesforce-connected operating structure that the team still uses daily across Zinc Agency and Elevate Experiences.</li>
-                  <li>Engineered a custom streaming platform using WordPress, JavaScript, CSS, HTML, web APIs, embedded video/meeting APIs including Whereby, branded event pages, embedded launch flows, and reusable registration workflows.</li>
-                  <li>Supported more than 2,000 celebrity-led livestreams and managed technical specifications, talent booking, and coordination with crews and stakeholders.</li>
-                  <li>When events returned in person, repurposed the streaming and registration infrastructure instead of abandoning it, evolving the platform into InviteMeNow for in-person, virtual, and hybrid event registration management.</li>
-                  <li>Converted the virtual-event infrastructure into the in-person registration management platform now used for client-facing event experiences, improving how the team delivered branded programs across formats.</li>
-                  <li>Built InviteMeNow as a customizable alternative to expensive event SaaS subscriptions such as Splash, with branded pages, custom URLs/subdomains, rich content, maps, directions, speaker information, API-driven launch flows, and client-facing hospitality experiences delivered through a custom wrapper.</li>
+                  <li>Led the company&apos;s pivot to virtual programming during COVID, building the technical platform that preserved service delivery and expanded virtual event offerings.</li>
+                  <li>Implemented Hive as the division&apos;s core project management system, creating custom workflows, forms, automations, and Salesforce-connected operating structure still used across Zinc Agency and Elevate Experiences.</li>
+                  <li>Engineered a custom streaming and registration platform using WordPress, JavaScript, web APIs, embedded meeting tools, and reusable branded event workflows.</li>
+                  <li>Supported more than 2,000 celebrity-led livestreams, managing technical specifications, talent coordination, and production stakeholders.</li>
+                  <li>Repurposed the platform into InviteMeNow, a customizable registration system for in-person, virtual, and hybrid client experiences.</li>
                 </ul>
               </div>
               <div className="resume-role">
@@ -144,8 +124,7 @@ function Resume() {
                 <p>2018 - 2020 | New York, NY</p>
                 <ul className="work-experience-item">
                   <li>Led budget creation, experience pricing, product packaging, and sales strategy for premium entertainment and experiential offerings.</li>
-                  <li>Drafted and signed contracts, managed legal agreements, and coordinated talent, venue, and corporate-client requirements.</li>
-                  <li>Coordinated critical operations, including talent negotiations and mediation between artists, representatives, and event stakeholders.</li>
+                  <li>Managed contracts, legal agreements, talent and venue requirements, and critical coordination among artists, representatives, and event stakeholders.</li>
                 </ul>
               </div>
               <div className="resume-role">
@@ -154,8 +133,7 @@ function Resume() {
                 <p>2014 - 2018 | New York, NY</p>
                 <ul className="work-experience-item">
                   <li>Developed experiential concepts using CAA-represented talent for corporate buyers and premium client programs.</li>
-                  <li>Managed logistics for sold events, including talent booking, agency coordination, venue planning, transportation, concierge-style details, and client communication.</li>
-                  <li>Built client relationship and cold outreach skills while managing high-expectation entertainment and brand partnerships.</li>
+                  <li>Managed sold-event logistics, agency coordination, venue planning, transportation, concierge details, and client communication.</li>
                 </ul>
               </div>
             </div>

@@ -75,7 +75,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <p className="eyebrow portfolio-eyebrow">Selected work</p>
-      <h2 className="portfolio-title">Customer-facing systems, AI workflows, and operational platforms.</h2>
+      <h2 className="portfolio-title">AI operations, customer-facing systems, and operational platforms.</h2>
       <p className="portfolio-description">
         Recent work first: implementation-heavy systems, internal operations platforms, GTM workflows,
         and client-delivery tools built for real business environments. Earlier technical projects are

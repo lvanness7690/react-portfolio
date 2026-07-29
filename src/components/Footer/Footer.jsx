@@ -5,7 +5,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer>
-      <p>Implementation, AI workflow, and customer-facing systems.</p>
+      <p>AI operations, implementation, and customer-facing systems.</p>
       <div className="footer-links">
         <a className="icon-link" href="https://github.com/lvanness7690">
           <FaGithub aria-hidden="true" />
