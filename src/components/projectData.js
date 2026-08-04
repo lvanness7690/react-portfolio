@@ -18,10 +18,10 @@ const projectsData = [
   {
     title: "Event Connect",
     category: "Node / Express / MySQL",
-    description: "Ticketmaster-powered event application with REST APIs, MySQL, Sequelize, Handlebars, express-session, cookies, and MVC architecture. Database-backed code sample linked for review.",
+    description: "Live event discovery and community application with REST APIs, MongoDB, Mongoose, Handlebars, persistent sessions, and MVC architecture.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Event-Connect.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/event-connect",
-    liveUrl: "https://project-2-event-planner-3ca0203f2eb1.herokuapp.com"
+    liveUrl: "https://event-connect-pi.vercel.app"
   },
   {
     title: "PWA Text Editor",
