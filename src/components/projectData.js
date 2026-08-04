@@ -5,7 +5,7 @@ const projectsData = [
     description: "Collaborative student study platform combining real-time study groups and discussion workflows. Built with MongoDB, Express, React, Node.js, GraphQL, Apollo Server, and JWT authentication.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Study-Sphere.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/study-sphere",
-    liveUrl: "https://study-sphere.net"
+    liveUrl: "https://study-sphere-kappa-ivory.vercel.app"
   },
   {
     title: "Cinematic Compass",
