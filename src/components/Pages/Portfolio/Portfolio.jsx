@@ -101,15 +101,6 @@ function Portfolio() {
           <div className="featured-links">
             <a
               className="icon-button-link"
-              href="https://github.com/lvanness7690/crew-control"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub aria-hidden="true" />
-              <span>GitHub Repo</span>
-            </a>
-            <a
-              className="icon-button-link"
               href="https://www.crewcontrolai.com"
               target="_blank"
               rel="noopener noreferrer"

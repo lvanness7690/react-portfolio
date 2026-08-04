@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     title: "Event Connect",
-    category: "Node / Express / MySQL",
+    category: "Node / Express / MongoDB",
     description: "Live event discovery and community application with REST APIs, MongoDB, Mongoose, Handlebars, persistent sessions, and MVC architecture.",
     imageUrl: "https://github.com/lvanness7690/react-portfolio/blob/main/images/Event-Connect.png?raw=true",
     repoUrl: "https://github.com/lvanness7690/event-connect",

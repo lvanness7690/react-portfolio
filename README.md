@@ -37,7 +37,7 @@ This application is powered by React.js (v18.2.0). Material UI (v5.13.6) and CSS
 
 ## Live Application
 
-[Portfolio](https://main--lvn-react-portfolio.netlify.app)
+[Portfolio](https://vanness.net)
 
 ## Usage
 
@@ -61,6 +61,5 @@ Developed by Leighton Van Ness
 ## License
 
 Please refer to the license in the repo.
-
 
 
