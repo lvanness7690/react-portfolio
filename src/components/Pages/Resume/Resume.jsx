@@ -11,9 +11,9 @@ function Resume() {
         <p>
           AI operations, implementation, sales-enablement, and customer-facing systems leader who builds
           internal tools, operational platforms, GTM workflows, and AI-enabled processes. Partner with
-          sales teams and customers to translate business needs into practical systems and dependable delivery
-          across CRM workflows, client programs, event operations, and post-sale execution. Bring hands-on
-          technical fluency across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
+          sales teams and enterprise customers to translate business needs into dependable systems and delivery
+          across CRM workflows, account programs, events, and post-sale execution, backed by hands-on fluency
+          across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
         </p>
         <a href={resumePdf} download="Leighton Van Ness Resume.pdf" className="download-button icon-button-link">
           <FaFileArrowDown aria-hidden="true" />
@@ -95,12 +95,12 @@ function Resume() {
                 <p>Elevate Experiences</p>
                 <p>2024 - Present | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Built and manage the Elevate Dashboard, a shared operations platform for event planning, ticketing, user administration, vendor and talent coordination, and production management.</li>
-                  <li>Developed the platform with React, serverless Node.js APIs, Redis/Upstash, Google Sheets integrations, and role-based access controls on Vercel.</li>
+                  <li>Built and manage the Elevate Dashboard, a React and serverless Node.js operations platform on Vercel with Redis/Upstash, Google Sheets integrations, and role-based access for event planning, ticketing, user administration, vendor and talent coordination, and production management.</li>
                   <li>Established CI/CD, preview deployments, automated tests, production safeguards, PDF/Word exports, and recurring release verification.</li>
                   <li>Lead AI and workflow implementation, evaluating tools, piloting practical use cases, and helping teams apply AI systems to operating workflows.</li>
                   <li>Built a custom, end-to-end AI sales agent using ChatGPT, Instantly, MailerLite, APIs, and multi-domain email infrastructure to automatically build targeted prospect lists, research and qualify leads, personalize and run cold-outreach sequences, manage sending operations, and synchronize lead and engagement data with CRM workflows.</li>
-                  <li>Serve as a customer-facing technical and operations lead for approximately 25 virtual events annually and 5-10 private concerts and large-format experiences, working directly with clients and coordinating back-end execution across talent, vendors, logistics, and production teams.</li>
+                  <li>Serve on account teams for two of Elevate&apos;s largest enterprise clients, each representing seven figures in annual business, meeting with customers to understand future needs, strengthen relationships through in-person programs, and support onsite delivery.</li>
+                  <li>Lead technical and back-end execution for approximately 25 virtual events annually and 5-10 private concerts and large-format experiences, ensuring the systems I built perform reliably across client programs and coordinating talent, vendors, logistics, and production teams.</li>
                   <li>Led the Elevate Experiences website launch and now manage SEO, analytics, content, inquiry flows, and HubSpot- and Salesforce-connected workflows that support sales handoffs and customer delivery.</li>
                   <li>Built an automated logistics tracker supporting approximately 60 events, 600 shipped bins, and 12,000-24,000 items with status syncing, alerts, routing, and recovery workflows.</li>
                 </ul>
@@ -110,9 +110,8 @@ function Resume() {
                 <p>Zinc Agency</p>
                 <p>2020 - 2024 | New York, NY</p>
                 <ul className="work-experience-item">
-                  <li>Led the company&apos;s pivot to virtual programming during COVID, building the technical platform that preserved service delivery and expanded virtual event offerings.</li>
+                  <li>Led the company&apos;s pivot to virtual programming during COVID, engineering a custom streaming and registration platform with WordPress, JavaScript, web APIs, embedded meeting tools, and reusable branded workflows.</li>
                   <li>Implemented Hive as the division&apos;s core project management system, creating custom workflows, forms, automations, and Salesforce-connected operating structure still used across Zinc Agency and Elevate Experiences.</li>
-                  <li>Engineered a custom streaming and registration platform using WordPress, JavaScript, web APIs, embedded meeting tools, and reusable branded event workflows.</li>
                   <li>Supported more than 2,000 celebrity-led livestreams, working directly with corporate clients to translate program goals into technical specifications and coordinating talent, platform, production, and operational stakeholders through delivery.</li>
                   <li>Repurposed the platform into InviteMeNow, a customizable registration system for in-person, virtual, and hybrid client experiences.</li>
                 </ul>

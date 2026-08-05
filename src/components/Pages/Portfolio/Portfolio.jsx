@@ -32,7 +32,7 @@ function Portfolio() {
       title: 'Elevate Dashboard',
       category: 'Internal tools / technical operations',
       description:
-        'Internal operations platform centralizing planning, ticket workflows, user administration, vendor coordination, exports, QA, and production management.',
+        'Internal operations platform centralizing planning, ticket workflows, user administration, vendor coordination, exports, QA, and production management, with direct use in programs supporting two seven-figure enterprise accounts.',
       caseStudyUrl: '/case-studies/elevate-dashboard.html',
     },
     {

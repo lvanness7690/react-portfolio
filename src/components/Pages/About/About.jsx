@@ -22,9 +22,9 @@ function About() {
           <p>
             AI operations, implementation, sales-enablement, and customer-facing systems leader who builds
             internal tools, operational platforms, GTM workflows, and AI-enabled processes. Partner with
-            sales teams and customers to translate business needs into practical systems and dependable delivery
-            across CRM workflows, client programs, event operations, and post-sale execution. Bring hands-on
-            technical fluency across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
+            sales teams and enterprise customers to translate business needs into dependable systems and delivery
+            across CRM workflows, account programs, events, and post-sale execution, backed by hands-on fluency
+            across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
@@ -115,7 +115,7 @@ function About() {
             <FaChartLine />
           </span>
           <h3>Implementation & Delivery</h3>
-          <p>Work directly with customers while owning website operations, analytics, CRM integration support, registration systems, and technical execution across premium corporate programs.</p>
+          <p>Serve on two seven-figure enterprise account teams, translating customer needs into reliable systems, onsite support, and technical execution across premium corporate programs.</p>
         </div>
       </section>
 
