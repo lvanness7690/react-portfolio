@@ -1,11 +1,10 @@
-import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa6';
 import './footer.css';
 
 function Footer() {
   return (
     <footer>
-      <p>AI operations, implementation, and customer-facing systems.</p>
+      <p>AI operations, implementation, sales enablement, and customer systems.</p>
       <div className="footer-links">
         <a className="icon-link" href="https://github.com/lvanness7690">
           <FaGithub aria-hidden="true" />

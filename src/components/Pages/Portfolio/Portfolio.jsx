@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import {
   FaArrowUpRightFromSquare,
   FaFileLines,
@@ -37,9 +37,9 @@ function Portfolio() {
     },
     {
       title: 'AI Prospecting & GTM Workflow',
-      category: 'AI workflow / GTM systems',
+      category: 'AI sales agent / GTM systems',
       description:
-        'Practical Claude, OpenAI, ZoomInfo, and Outreach workflow for company research, lead enrichment, campaign prep, and AI adoption across a non-technical team.',
+        'Custom AI sales agent connecting ChatGPT, Instantly, MailerLite, APIs, multi-domain sending infrastructure, and CRM workflows for list building, qualification, personalized outreach, and engagement synchronization.',
       caseStudyUrl: '/case-studies/ai-prospecting-gtm-workflow.html',
     },
     {
@@ -65,9 +65,9 @@ function Portfolio() {
     },
     {
       title: 'Elevate Website Launch & GTM Systems',
-      category: 'Website ops / GTM systems / implementation',
+      category: 'Website ops / CRM systems / implementation',
       description:
-        'Launch and post-launch operations for a premium hospitality marketing site, including stakeholder coordination, QA, SEO, analytics, inquiry flows, and CRM-connected GTM support.',
+        'Launch and post-launch operations for a premium hospitality website, including stakeholder coordination, QA, SEO, analytics, inquiry flows, sales handoffs, and CRM-connected customer delivery.',
       caseStudyUrl: '/case-studies/elevate-website-launch-gtm-systems.html',
     },
   ];
@@ -75,7 +75,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <p className="eyebrow portfolio-eyebrow">Selected work</p>
-      <h2 className="portfolio-title">AI operations, customer-facing systems, and operational platforms.</h2>
+      <h2 className="portfolio-title">AI operations, sales-enablement systems, customer delivery, and operational platforms.</h2>
       <p className="portfolio-description">
         Recent work first: implementation-heavy systems, internal operations platforms, GTM workflows,
         and client-delivery tools built for real business environments. Earlier technical projects are

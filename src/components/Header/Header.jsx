@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 
@@ -7,7 +6,7 @@ function Header() {
     <header>
       <Link className="site-mark" to="/">
         <span>Leighton Van Ness</span>
-        <small>AI Operations, Implementation &amp; Customer-Facing Systems</small>
+        <small>AI Operations, Implementation, Sales Enablement &amp; Customer Systems</small>
       </Link>
       <nav>
         <ul>

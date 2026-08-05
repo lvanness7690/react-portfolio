@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FaArrowRightLong,
   FaEnvelope,
@@ -18,14 +17,14 @@ function About() {
     <div className="about-page">
       <section className="about-hero">
         <div className="about-copy">
-          <p className="eyebrow">AI operations, implementation, and customer-facing systems</p>
-          <h2>I build AI-enabled workflows, internal tools, and customer-facing systems that help teams operate and grow.</h2>
+          <p className="eyebrow">AI operations, implementation, sales enablement, and customer systems</p>
+          <h2>I build AI-enabled sales and operations systems - and lead the customer-facing delivery that makes them useful.</h2>
           <p>
-            AI operations, implementation, and customer-facing systems leader who builds internal tools,
-            operational platforms, GTM workflows, and AI-enabled processes. Translate business needs into
-            practical systems spanning product operations, workflow automation, client delivery, and revenue
-            operations. Bring hands-on technical fluency across APIs, modern web platforms, CRM systems,
-            analytics, and deployment workflows.
+            AI operations, implementation, sales-enablement, and customer-facing systems leader who builds
+            internal tools, operational platforms, GTM workflows, and AI-enabled processes. Partner with
+            sales teams and customers to translate business needs into practical systems and dependable delivery
+            across CRM workflows, client programs, event operations, and post-sale execution. Bring hands-on
+            technical fluency across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
@@ -86,11 +85,11 @@ function About() {
           <dl>
             <div>
               <dt>Current focus</dt>
-              <dd>AI operations, customer-facing systems, GTM workflows</dd>
+              <dd>AI operations, sales enablement, customer delivery</dd>
             </div>
             <div>
               <dt>Target roles</dt>
-              <dd>AI operations, implementation, technical operations, product ops</dd>
+              <dd>AI operations, implementation, sales enablement, customer success</dd>
             </div>
           </dl>
         </aside>
@@ -109,14 +108,14 @@ function About() {
             <FaRobot />
           </span>
           <h3>AI Workflows</h3>
-          <p>Build AI agents and API-connected workflows for research, prospecting, qualification, automation, and targeted outbound execution.</p>
+          <p>Build custom AI sales agents and API-connected workflows for list building, research, qualification, personalized outreach, sending operations, and CRM synchronization.</p>
         </div>
         <div>
           <span className="highlight-icon" aria-hidden="true">
             <FaChartLine />
           </span>
           <h3>Implementation & Delivery</h3>
-          <p>Own website operations, analytics, CRM integration support, registration systems, and technical execution across premium hospitality and corporate client delivery.</p>
+          <p>Work directly with customers while owning website operations, analytics, CRM integration support, registration systems, and technical execution across premium corporate programs.</p>
         </div>
       </section>
 
@@ -125,13 +124,14 @@ function About() {
         <p>
           I am targeting companies building ambitious technical products, especially AI, frontier tech,
           infrastructure, and high-growth software teams. The strongest fit is roles where I can combine
-          hands-on building, systems thinking, implementation depth, and customer or internal workflow insight.
+          hands-on building, systems thinking, implementation depth, sales enablement, and customer workflow insight.
         </p>
         <ul>
           <li>Implementation, solutions, and technical operations roles</li>
           <li>AI operations, workflow operations, and AI-enabled systems roles</li>
           <li>Product operations, business operations, and internal tools</li>
-          <li>GTM systems, automation, and revenue or marketing operations</li>
+          <li>GTM systems, automation, CRM operations, and revenue operations</li>
+          <li>Technical sales development, sales enablement, and customer success</li>
         </ul>
       </section>
     </div>

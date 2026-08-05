@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa6';
 import './contact.css';
 
@@ -6,10 +5,10 @@ function Contact() {
   return (
     <div className="contact">
       <p className="eyebrow">Contact</p>
-      <h2>Let's talk about AI operations, implementation, internal tools, or technical systems roles.</h2>
+      <h2>Let&apos;s talk about AI operations, implementation, sales enablement, customer systems, or internal tools roles.</h2>
       <p>
-        I am open to AI operations, technical operations, GTM systems, internal tools,
-        solutions, product operations, and engineering-adjacent roles.
+        I am open to AI operations, implementation, customer success, sales enablement, GTM systems,
+        internal tools, solutions, product operations, and engineering-adjacent roles.
       </p>
       <div className="contact-links">
         <a className="icon-button-link" href="mailto:leighton@vanness.net">
