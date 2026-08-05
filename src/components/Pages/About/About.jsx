@@ -20,11 +20,12 @@ function About() {
           <p className="eyebrow">AI operations, implementation, sales enablement, and customer systems</p>
           <h2>I build AI-enabled sales and operations systems - and lead the customer-facing delivery that makes them useful.</h2>
           <p>
-            AI operations, implementation, sales-enablement, and customer-facing systems leader who builds
-            internal tools, operational platforms, GTM workflows, and AI-enabled processes. Partner with
-            sales teams and enterprise customers to translate business needs into dependable systems and delivery
-            across CRM workflows, account programs, events, and post-sale execution, backed by hands-on fluency
-            across APIs, modern web platforms, CRM systems, analytics, and deployment workflows.
+            AI operations, implementation, sales-enablement, and customer-facing systems leader with more than
+            10 years of experience building operational platforms, GTM workflows, client programs, and AI-enabled
+            processes. Partner with sales teams and enterprise customers to translate business needs into dependable
+            systems and delivery across CRM workflows, account programs, events, and post-sale execution. Combine
+            hands-on technical fluency across APIs, modern web platforms, CRM systems, analytics, and deployment
+            workflows with deep experience supporting high-value customer relationships.
           </p>
           <div className="about-actions">
             <a className="primary-action icon-button-link" href="/portfolio">
@@ -108,7 +109,7 @@ function About() {
             <FaRobot />
           </span>
           <h3>AI Workflows</h3>
-          <p>Build custom AI sales agents and API-connected workflows for list building, research, qualification, personalized outreach, sending operations, and CRM synchronization.</p>
+          <p>Use ChatGPT, Claude, and OpenClaw to build AI sales agents and API-connected workflows for list building, research, qualification, personalized outreach, sending operations, and CRM synchronization.</p>
         </div>
         <div>
           <span className="highlight-icon" aria-hidden="true">
